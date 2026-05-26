@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-05-25T06:48:01.657570+00:00",
+  "updated_at": "2026-05-26T06:18:42.367721+00:00",
   "seed_repo_files": [
     "config/github_seed_repos.txt",
     "published/manifests/search-discovered-repos.txt"
   ],
   "patterns_file": "config/discovery_patterns.yaml",
-  "discovered_source_count": 249,
+  "discovered_source_count": 242,
   "discovered_sources_file": "published/manifests/discovered-source-urls.txt",
   "repos": [
     {
@@ -54,32 +54,31 @@
       "ref": "master",
       "tree_truncated": false,
       "candidate_file_count": 51,
-      "accepted_source_count": 26,
+      "accepted_source_count": 25,
       "accepted_sources": [
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml",
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_CA.meta.yml",
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_CA.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_CH.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_CN.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_DE.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_DE.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_FR.meta.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_FR.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_GB.meta.yml",
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_GB.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_HK.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_HK.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_JP.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_JP.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_KR.meta.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_KR.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_RU.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SE.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SE.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SG.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SG.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_TW.meta.yml",
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_TW.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_US.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_US.yml"
       ],
@@ -129,7 +128,11 @@
           "reason": "content_not_matching"
         },
         {
-          "path": "snippets/nodes_CH.meta.yml",
+          "path": "snippets/nodes_CA.meta.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "snippets/nodes_CA.yml",
           "reason": "content_not_matching"
         },
         {
@@ -149,11 +152,7 @@
           "reason": "content_not_matching"
         },
         {
-          "path": "snippets/nodes_FR.yml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "snippets/nodes_KR.yml",
+          "path": "snippets/nodes_GB.yml",
           "reason": "content_not_matching"
         },
         {
@@ -161,7 +160,7 @@
           "reason": "content_not_matching"
         },
         {
-          "path": "snippets/nodes_redir.meta.yml",
+          "path": "snippets/nodes_TW.yml",
           "reason": "content_not_matching"
         }
       ]
@@ -470,14 +469,14 @@
       "ref": "master",
       "tree_truncated": false,
       "candidate_file_count": 48,
-      "accepted_source_count": 18,
+      "accepted_source_count": 17,
       "accepted_sources": [
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes.yml",
-        "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_CA.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_CN.meta.yml",
+        "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_DE.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_GB.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_HK.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_HK.yml",
@@ -487,7 +486,6 @@
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_RU.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_SG.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_SG.yml",
-        "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_TW.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_US.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_US.yml"
       ],
@@ -533,6 +531,10 @@
           "reason": "content_not_matching"
         },
         {
+          "path": "snippets/nodes_CA.meta.yml",
+          "reason": "content_not_matching"
+        },
+        {
           "path": "snippets/nodes_CA.yml",
           "reason": "content_not_matching"
         },
@@ -546,10 +548,6 @@
         },
         {
           "path": "snippets/nodes_CN.yml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "snippets/nodes_DE.meta.yml",
           "reason": "content_not_matching"
         },
         {
@@ -627,20 +625,124 @@
       ]
     },
     {
+      "seed_repo": "kort0881/vpn-vless-configs-russia",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 120,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "USAGE.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "data/filtered/sni_ru.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "data/normalized/ss.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "data/normalized/trojan.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "data/normalized/vless.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "data/normalized/vmess.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "data/subscriptions/all.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "data/subscriptions/all_base64.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "extra_converted_for_mirror.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "githubmirror/clean/hy2.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "githubmirror/clean/hysteria.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "githubmirror/clean/hysteria2.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "githubmirror/clean/ss.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "githubmirror/clean/trojan.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "githubmirror/clean/tuic.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "githubmirror/clean/vless.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "githubmirror/clean/vmess.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "githubmirror/new/all_new.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "githubmirror/new/by_protocol/hy2/hy2_001.txt",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "junjun266/FreeProxyGo",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 2,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": "READEME.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
       "seed_repo": "Au1rxx/free-vpn-subscriptions",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 24,
-      "accepted_source_count": 9,
+      "candidate_file_count": 20,
+      "accepted_source_count": 5,
       "accepted_sources": [
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-CA.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-DE.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-GB.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-NL.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-US.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-DE.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-GB.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-NL.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml"
       ],
       "sample_rejections": [
@@ -702,78 +804,6 @@
         },
         {
           "path": "output/v2ray-base64.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "junjun266/FreeProxyGo",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 2,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": "READEME.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "marvinli001/ClashMax",
-      "ref": "master",
-      "tree_truncated": false,
-      "candidate_file_count": 11,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": "CODE_OF_CONDUCT.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "CONTRIBUTING.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README.zh-CN.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Resources/Core/README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "SECURITY.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "THIRD_PARTY_NOTICES.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/DEVELOPMENT.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/MENU_BAR_RICH_PANEL_QA.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/TUN_SMOKE_TEST.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "project.yml",
           "reason": "content_not_matching"
         }
       ]
@@ -874,71 +904,19 @@
       ]
     },
     {
-      "seed_repo": "nodesfree/v2raynode",
+      "seed_repo": "OpenNetCN/clash",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 11,
-      "accepted_source_count": 3,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/nodesfree/v2raynode/main/clash.yaml",
-        "https://raw.githubusercontent.com/nodesfree/v2raynode/main/subscribe/clash.yml",
-        "https://raw.githubusercontent.com/nodesfree/v2raynode/main/v2ray.txt"
-      ],
+      "candidate_file_count": 2,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
       "sample_rejections": [
         {
           "path": "README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/Android手机使用clash.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/ClashVergeRev安装与使用指南.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/Shadowrocket新手使用教程.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/windows下载安装clash.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "jichang/README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "requirements.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "subscribe/v2ray.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "ermaozi01/free_clash_vpn",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 4,
-      "accepted_source_count": 1,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml"
-      ],
-      "sample_rejections": [
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "requirements.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "subscribe/v2ray.txt",
+          "path": "daily-news.md",
           "reason": "content_not_matching"
         }
       ]
@@ -959,24 +937,6 @@
         },
         {
           "path": "README.md",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "OpenNetCN/clash",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 2,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "daily-news.md",
           "reason": "content_not_matching"
         }
       ]
@@ -1076,59 +1036,47 @@
       ]
     },
     {
-      "seed_repo": "missuo/opensnell",
+      "seed_repo": "nodesfree/v2raynode",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 2,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
+      "candidate_file_count": 11,
+      "accepted_source_count": 3,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/nodesfree/v2raynode/main/clash.yaml",
+        "https://raw.githubusercontent.com/nodesfree/v2raynode/main/subscribe/clash.yml",
+        "https://raw.githubusercontent.com/nodesfree/v2raynode/main/v2ray.txt"
+      ],
       "sample_rejections": [
         {
           "path": "README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "README_zh.md",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "kissgyorgy/my-stars",
-      "ref": "master",
-      "tree_truncated": false,
-      "candidate_file_count": 1,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "arloor/rust_http_proxy",
-      "ref": "master",
-      "tree_truncated": false,
-      "candidate_file_count": 4,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": ".vscode/location.yaml",
+          "path": "docs/Android手机使用clash.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "AGENTS.md",
+          "path": "docs/ClashVergeRev安装与使用指南.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "README.md",
+          "path": "docs/Shadowrocket新手使用教程.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "RPM打包.md",
+          "path": "docs/windows下载安装clash.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "jichang/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "requirements.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "subscribe/v2ray.txt",
           "reason": "content_not_matching"
         }
       ]
