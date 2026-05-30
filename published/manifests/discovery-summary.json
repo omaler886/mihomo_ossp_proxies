@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-29T06:35:22.626724+00:00",
+  "updated_at": "2026-05-30T05:58:10.228243+00:00",
   "seed_repo_files": [
     "config/github_seed_repos.txt",
     "published/manifests/search-discovered-repos.txt"
@@ -54,25 +54,27 @@
       "ref": "master",
       "tree_truncated": false,
       "candidate_file_count": 51,
-      "accepted_source_count": 23,
+      "accepted_source_count": 25,
       "accepted_sources": [
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_CH.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_CN.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_DE.meta.yml",
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_DE.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_EE.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_FR.meta.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_FR.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_GB.meta.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_GB.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_HK.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_HK.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_JP.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_JP.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_KR.meta.yml",
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_KR.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_RU.meta.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SE.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SG.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SG.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_TW.meta.yml",
@@ -134,10 +136,6 @@
           "reason": "content_not_matching"
         },
         {
-          "path": "snippets/nodes_CH.meta.yml",
-          "reason": "content_not_matching"
-        },
-        {
           "path": "snippets/nodes_CH.yml",
           "reason": "content_not_matching"
         },
@@ -146,19 +144,23 @@
           "reason": "content_not_matching"
         },
         {
+          "path": "snippets/nodes_DE.yml",
+          "reason": "content_not_matching"
+        },
+        {
           "path": "snippets/nodes_EE.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "snippets/nodes_FR.yml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "snippets/nodes_GB.yml",
+          "path": "snippets/nodes_KR.yml",
           "reason": "content_not_matching"
         },
         {
           "path": "snippets/nodes_RU.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "snippets/nodes_SE.yml",
           "reason": "content_not_matching"
         }
       ]
@@ -618,96 +620,6 @@
       ]
     },
     {
-      "seed_repo": "sinspired/subs-check-pro",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 22,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": ".goreleaser.yaml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "app/codemirror-build/pnpm-lock.yaml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "app/yaml-build/pnpm-lock.yaml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "doc/base.yaml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs-site/docs/Cloudflare-Tunnel.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs-site/docs/Deployment.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs-site/docs/Features-Details.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs-site/docs/File-Service.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs-site/docs/Home.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs-site/docs/Notifications.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs-site/docs/Speedtest.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs-site/docs/Storage.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs-site/docs/Subscriptions.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs-site/docs/System-Proxy.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs-site/docs/android.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs-site/docs/method-gist.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs-site/docs/method-r2.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs-site/docs/method-webdav.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs-site/docs/sub-store-教程.md",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
       "seed_repo": "kort0881/vpn-vless-configs-russia",
       "ref": "main",
       "tree_truncated": false,
@@ -801,15 +713,13 @@
       "seed_repo": "Au1rxx/free-vpn-subscriptions",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 22,
-      "accepted_source_count": 7,
+      "candidate_file_count": 20,
+      "accepted_source_count": 5,
       "accepted_sources": [
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-CA.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-DE.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-SC.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-US.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-DE.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-SC.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml"
       ],
       "sample_rejections": [
@@ -871,6 +781,96 @@
         },
         {
           "path": "output/v2ray-base64.txt",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "JohanChane/clashtui",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 36,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": ".agents/skills/generating-sing-box-configs/SKILL.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/migrating-sing-box-configs/SKILL.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README_ZH.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "contrib/default_configs/config.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "contrib/default_configs/default_keymap.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "contrib/default_configs/default_theme.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "contrib/default_configs/mihomo/core_override_config.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "contrib/default_configs/mihomo/core_override_config_no_tun.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "contrib/templates/mihomo/common_tpl.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "contrib/templates/mihomo/generic_tpl.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "contrib/templates/mihomo/generic_tpl_with_all.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "contrib/templates/mihomo/generic_tpl_with_filter.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "contrib/templates/mihomo/generic_tpl_with_ruleset.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "contrib/themes/Dracula.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/architecture_en.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/architecture_zh.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/clashtui_feature_design_en.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/clashtui_feature_design_zh.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/development_conventions.md",
           "reason": "content_not_matching"
         }
       ]
@@ -1162,56 +1162,6 @@
         },
         {
           "path": "edge/assets/p-list-may.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "ishalumi/proxy-node-collector",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 10,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "output/easy_proxy_asia.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "output/easy_proxy_chatgpt.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "output/easy_proxy_europe.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "output/easy_proxy_nodes.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "output/easy_proxy_us_optimized.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "output/nodes.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "output/nodes_base64.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "requirements.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sources.yaml",
           "reason": "content_not_matching"
         }
       ]
