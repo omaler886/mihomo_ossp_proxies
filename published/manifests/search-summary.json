@@ -1,64 +1,52 @@
 {
-  "updated_at": "2026-05-31T06:34:29.031775+00:00",
+  "updated_at": "2026-06-01T07:22:30.005969+00:00",
   "queries_file": "config/search_queries.yaml",
   "discovered_repo_count": 10,
-  "discovered_source_count": 29,
+  "discovered_source_count": 0,
   "output_repo_file": "published/manifests/search-discovered-repos.txt",
   "output_source_file": "published/manifests/search-discovered-source-urls.txt",
   "repository_search": [
     {
       "query": "clash mihomo subscription in:name,description,readme stars:>10",
-      "total_count": 108,
+      "total_count": 110,
       "accepted_count": 3,
       "accepted_repos": [
         {
           "full_name": "Au1rxx/free-vpn-subscriptions",
           "default_branch": "main",
           "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
-          "stargazers_count": 59
+          "stargazers_count": 62
         },
         {
           "full_name": "junjun266/FreeProxyGo",
           "default_branch": "main",
           "html_url": "https://github.com/junjun266/FreeProxyGo",
-          "stargazers_count": 98
+          "stargazers_count": 99
         },
         {
-          "full_name": "sinspired/subs-check-pro",
-          "default_branch": "main",
-          "html_url": "https://github.com/sinspired/subs-check-pro",
-          "stargazers_count": 23
+          "full_name": "sub-store-org/Sub-Store",
+          "default_branch": "master",
+          "html_url": "https://github.com/sub-store-org/Sub-Store",
+          "stargazers_count": 9722
         }
       ]
     },
     {
       "query": "v2ray subscribe clash in:name,description,readme stars:>10",
       "total_count": 91,
-      "accepted_count": 7,
+      "accepted_count": 6,
       "accepted_repos": [
-        {
-          "full_name": "Au1rxx/free-vpn-subscriptions",
-          "default_branch": "main",
-          "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
-          "stargazers_count": 59
-        },
-        {
-          "full_name": "OpenNetCN/clash",
-          "default_branch": "main",
-          "html_url": "https://github.com/OpenNetCN/clash",
-          "stargazers_count": 338
-        },
         {
           "full_name": "PuddinCat/BestClash",
           "default_branch": "main",
           "html_url": "https://github.com/PuddinCat/BestClash",
-          "stargazers_count": 1632
+          "stargazers_count": 1637
         },
         {
-          "full_name": "mahdibland/V2RayAggregator",
-          "default_branch": "master",
-          "html_url": "https://github.com/mahdibland/V2RayAggregator",
-          "stargazers_count": 3977
+          "full_name": "Au1rxx/free-vpn-subscriptions",
+          "default_branch": "main",
+          "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
+          "stargazers_count": 62
         },
         {
           "full_name": "nodesfree/v2raynode",
@@ -67,54 +55,66 @@
           "stargazers_count": 79
         },
         {
-          "full_name": "NiREvil/vless",
+          "full_name": "ermaozi01/free_clash_vpn",
           "default_branch": "main",
-          "html_url": "https://github.com/NiREvil/vless",
-          "stargazers_count": 1129
+          "html_url": "https://github.com/ermaozi01/free_clash_vpn",
+          "stargazers_count": 751
         },
         {
-          "full_name": "ishalumi/proxy-node-collector",
+          "full_name": "OpenNetCN/clash",
           "default_branch": "main",
-          "html_url": "https://github.com/ishalumi/proxy-node-collector",
-          "stargazers_count": 24
+          "html_url": "https://github.com/OpenNetCN/clash",
+          "stargazers_count": 341
+        },
+        {
+          "full_name": "mahdibland/V2RayAggregator",
+          "default_branch": "master",
+          "html_url": "https://github.com/mahdibland/V2RayAggregator",
+          "stargazers_count": 3979
         }
       ]
     },
     {
       "query": "proxy pool clash in:name,description,readme stars:>5",
       "total_count": 218,
-      "accepted_count": 2,
+      "accepted_count": 3,
       "accepted_repos": [
         {
-          "full_name": "baoweise-bot/aimili-vpngate",
+          "full_name": "FreeFolksOn/abc-configs-free-vpn-proxy-list",
           "default_branch": "main",
-          "html_url": "https://github.com/baoweise-bot/aimili-vpngate",
-          "stargazers_count": 533
+          "html_url": "https://github.com/FreeFolksOn/abc-configs-free-vpn-proxy-list",
+          "stargazers_count": 10
+        },
+        {
+          "full_name": "Tokinx/sub2clash-workers",
+          "default_branch": "main",
+          "html_url": "https://github.com/Tokinx/sub2clash-workers",
+          "stargazers_count": 6
         },
         {
           "full_name": "mahdibland/V2RayAggregator",
           "default_branch": "master",
           "html_url": "https://github.com/mahdibland/V2RayAggregator",
-          "stargazers_count": 3977
+          "stargazers_count": 3979
         }
       ]
     },
     {
       "query": "mihomo nodes share in:name,description,readme stars:>5",
-      "total_count": 74,
+      "total_count": 75,
       "accepted_count": 2,
       "accepted_repos": [
         {
           "full_name": "Au1rxx/free-vpn-subscriptions",
           "default_branch": "main",
           "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
-          "stargazers_count": 59
+          "stargazers_count": 62
         },
         {
           "full_name": "junjun266/FreeProxyGo",
           "default_branch": "main",
           "html_url": "https://github.com/junjun266/FreeProxyGo",
-          "stargazers_count": 98
+          "stargazers_count": 99
         }
       ]
     }
@@ -122,198 +122,24 @@
   "code_search": [
     {
       "query": "\"proxies:\" \"type: vless\" extension:yaml",
-      "total_count": 1354,
-      "accepted_count": 10,
-      "accepted_sources": [
-        {
-          "full_name": "changfengoss/pub",
-          "path": "20251226/z8ejep6.yaml",
-          "raw_url": "https://raw.githubusercontent.com/changfengoss/pub/main/20251226/z8ejep6.yaml",
-          "html_url": "https://github.com/changfengoss/pub/blob/02400b3a7bc08d1ab406436d4a0160bc85d13038/20251226/z8ejep6.yaml"
-        },
-        {
-          "full_name": "Barabama/FreeNodes",
-          "path": "nodes/blues.yaml",
-          "raw_url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/blues.yaml",
-          "html_url": "https://github.com/Barabama/FreeNodes/blob/e6fe651208f10da7113bea39e2890fad3b096295/nodes/blues.yaml"
-        },
-        {
-          "full_name": "Opnwall/Mihomo-for-OPNsense",
-          "path": "conf/config.yaml",
-          "raw_url": "https://raw.githubusercontent.com/Opnwall/Mihomo-for-OPNsense/main/conf/config.yaml",
-          "html_url": "https://github.com/Opnwall/Mihomo-for-OPNsense/blob/bfb57fbcd002086b0aff95b9826b823565ce0290/conf/config.yaml"
-        },
-        {
-          "full_name": "dalazhi/v2ray",
-          "path": "dalazhi1.yaml",
-          "raw_url": "https://raw.githubusercontent.com/dalazhi/v2ray/main/dalazhi1.yaml",
-          "html_url": "https://github.com/dalazhi/v2ray/blob/a4a307d1fad3e72a731046a66f732f4d6938a79e/dalazhi1.yaml"
-        },
-        {
-          "full_name": "ReaJason/Clash-Butler",
-          "path": "clash.yaml",
-          "raw_url": "https://raw.githubusercontent.com/ReaJason/Clash-Butler/main/clash.yaml",
-          "html_url": "https://github.com/ReaJason/Clash-Butler/blob/97d29b275c573e5ef5ac8149bad2d382e013fcc5/clash.yaml"
-        },
-        {
-          "full_name": "AlexyZheng/subconverter-rs",
-          "path": "clash-verge.yaml",
-          "raw_url": "https://raw.githubusercontent.com/AlexyZheng/subconverter-rs/main/clash-verge.yaml",
-          "html_url": "https://github.com/AlexyZheng/subconverter-rs/blob/0ceb8682f0b830a7b0eade38833e002b7b153f40/clash-verge.yaml"
-        },
-        {
-          "full_name": "asgharkapk/Sub-Config-Extractor",
-          "path": "output_configs/clash/darkvpn/-clash.yaml",
-          "raw_url": "https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/darkvpn/-clash.yaml",
-          "html_url": "https://github.com/asgharkapk/Sub-Config-Extractor/blob/9baaa50f4dc550d4668f6b69341ca9fdcfdd7201/output_configs/clash/darkvpn/-clash.yaml"
-        },
-        {
-          "full_name": "go4sharing/sub",
-          "path": "2025/12-01.yaml",
-          "raw_url": "https://raw.githubusercontent.com/go4sharing/sub/main/2025/12-01.yaml",
-          "html_url": "https://github.com/go4sharing/sub/blob/762eb1f825495d2aa035ae19c5373560ccf7f753/2025/12-01.yaml"
-        },
-        {
-          "full_name": "vpnclashfa-backup/subconverter",
-          "path": "output_configs/clash/itsyebekhe_xhttp.yaml",
-          "raw_url": "https://raw.githubusercontent.com/vpnclashfa-backup/subconverter/main/output_configs/clash/itsyebekhe_xhttp.yaml",
-          "html_url": "https://github.com/vpnclashfa-backup/subconverter/blob/67afc647920e960b454d7b62f064640e23887915/output_configs/clash/itsyebekhe_xhttp.yaml"
-        },
-        {
-          "full_name": "Murgoa/passw-bak",
-          "path": "home.yaml",
-          "raw_url": "https://raw.githubusercontent.com/Murgoa/passw-bak/main/home.yaml",
-          "html_url": "https://github.com/Murgoa/passw-bak/blob/4c532c859c4e50af43a72f2f0b7144f3d2d75f1c/home.yaml"
-        }
-      ]
+      "total_count": 0,
+      "accepted_count": 0,
+      "accepted_sources": [],
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "query": "\"proxies:\" \"type: vmess\" extension:yaml",
-      "total_count": 1192,
-      "accepted_count": 12,
-      "accepted_sources": [
-        {
-          "full_name": "VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy",
-          "path": "combine/clash.config.yaml",
-          "raw_url": "https://raw.githubusercontent.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy/main/combine/clash.config.yaml",
-          "html_url": "https://github.com/VPN-Subcription-Links/ClashX-V2Ray-TopFreeProxy/blob/4486b10a0caf94cb8a83de791574177f43c87c65/combine/clash.config.yaml"
-        },
-        {
-          "full_name": "go4sharing/sub",
-          "path": "2025/12-04.yaml",
-          "raw_url": "https://raw.githubusercontent.com/go4sharing/sub/main/2025/12-04.yaml",
-          "html_url": "https://github.com/go4sharing/sub/blob/762eb1f825495d2aa035ae19c5373560ccf7f753/2025/12-04.yaml"
-        },
-        {
-          "full_name": "nosignals/mihomo-clashformagisk",
-          "path": "config.yaml",
-          "raw_url": "https://raw.githubusercontent.com/nosignals/mihomo-clashformagisk/main/config.yaml",
-          "html_url": "https://github.com/nosignals/mihomo-clashformagisk/blob/e31f39cb11e2cc6b5b454bacbafb6ebfd199721c/config.yaml"
-        },
-        {
-          "full_name": "dalazhi/v2ray",
-          "path": "v2ray/sub.yaml",
-          "raw_url": "https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray/sub.yaml",
-          "html_url": "https://github.com/dalazhi/v2ray/blob/a4a307d1fad3e72a731046a66f732f4d6938a79e/v2ray/sub.yaml"
-        },
-        {
-          "full_name": "v2raydy/Clash",
-          "path": "02-06m2.yaml",
-          "raw_url": "https://raw.githubusercontent.com/v2raydy/Clash/main/02-06m2.yaml",
-          "html_url": "https://github.com/v2raydy/Clash/blob/cafa57135df21158025db691e11ba4bc0148b344/02-06m2.yaml"
-        },
-        {
-          "full_name": "nesszby/cla",
-          "path": "twclash.yaml",
-          "raw_url": "https://raw.githubusercontent.com/nesszby/cla/main/twclash.yaml",
-          "html_url": "https://github.com/nesszby/cla/blob/e455a31e8eab0b57db32d8c7d7e7e09ac00baf84/twclash.yaml"
-        },
-        {
-          "full_name": "moneyfly1/jichangnodes",
-          "path": "sub/250625/clash.yaml",
-          "raw_url": "https://raw.githubusercontent.com/moneyfly1/jichangnodes/main/sub/250625/clash.yaml",
-          "html_url": "https://github.com/moneyfly1/jichangnodes/blob/42cac6420b92657a68d034322dd91276fcc340ad/sub/250625/clash.yaml"
-        },
-        {
-          "full_name": "qist/xray",
-          "path": "clash/config.yaml",
-          "raw_url": "https://raw.githubusercontent.com/qist/xray/main/clash/config.yaml",
-          "html_url": "https://github.com/qist/xray/blob/e2db8be98244e6c17a8b340647a20f058741ddc0/clash/config.yaml"
-        },
-        {
-          "full_name": "SssTao/0000",
-          "path": "9.26.yaml",
-          "raw_url": "https://raw.githubusercontent.com/SssTao/0000/main/9.26.yaml",
-          "html_url": "https://github.com/SssTao/0000/blob/b93282d502afbf34cfdfe93ba51639e31109239f/9.26.yaml"
-        },
-        {
-          "full_name": "go4sharing/sub",
-          "path": "2025/10-29.yaml",
-          "raw_url": "https://raw.githubusercontent.com/go4sharing/sub/main/2025/10-29.yaml",
-          "html_url": "https://github.com/go4sharing/sub/blob/762eb1f825495d2aa035ae19c5373560ccf7f753/2025/10-29.yaml"
-        },
-        {
-          "full_name": "KrcKidss/AKUN",
-          "path": "MAGIP-ALLBUG.yaml",
-          "raw_url": "https://raw.githubusercontent.com/KrcKidss/AKUN/main/MAGIP-ALLBUG.yaml",
-          "html_url": "https://github.com/KrcKidss/AKUN/blob/c3315d4c3606fd86eeaef7b0914089014effe949/MAGIP-ALLBUG.yaml"
-        },
-        {
-          "full_name": "kintana/clash",
-          "path": "racevpn.yaml",
-          "raw_url": "https://raw.githubusercontent.com/kintana/clash/main/racevpn.yaml",
-          "html_url": "https://github.com/kintana/clash/blob/90a1db7de54abde0a2a98fb6c2cc591abed173ba/racevpn.yaml"
-        }
-      ]
+      "total_count": 0,
+      "accepted_count": 0,
+      "accepted_sources": [],
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "query": "\"proxies:\" \"type: trojan\" extension:yaml",
-      "total_count": 1260,
-      "accepted_count": 7,
-      "accepted_sources": [
-        {
-          "full_name": "Barabama/FreeNodes",
-          "path": "nodes/ndnode.yaml",
-          "raw_url": "https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/ndnode.yaml",
-          "html_url": "https://github.com/Barabama/FreeNodes/blob/e6fe651208f10da7113bea39e2890fad3b096295/nodes/ndnode.yaml"
-        },
-        {
-          "full_name": "opusb/tpclash2",
-          "path": "example.yaml",
-          "raw_url": "https://raw.githubusercontent.com/opusb/tpclash2/main/example.yaml",
-          "html_url": "https://github.com/opusb/tpclash2/blob/c3a1afd65144f535e29b3d23ba2164d3633c3d15/example.yaml"
-        },
-        {
-          "full_name": "NiceVPN123/NiceVPN",
-          "path": "utils/pool/into.yaml",
-          "raw_url": "https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/utils/pool/into.yaml",
-          "html_url": "https://github.com/NiceVPN123/NiceVPN/blob/85ec0fb07e61f4789215339029b7fa1356b95c96/utils/pool/into.yaml"
-        },
-        {
-          "full_name": "go4sharing/sub",
-          "path": "2026/03-24.yaml",
-          "raw_url": "https://raw.githubusercontent.com/go4sharing/sub/main/2026/03-24.yaml",
-          "html_url": "https://github.com/go4sharing/sub/blob/762eb1f825495d2aa035ae19c5373560ccf7f753/2026/03-24.yaml"
-        },
-        {
-          "full_name": "changfengoss/pub",
-          "path": "data/2023_03_26/ciHkVw.yaml",
-          "raw_url": "https://raw.githubusercontent.com/changfengoss/pub/main/data/2023_03_26/ciHkVw.yaml",
-          "html_url": "https://github.com/changfengoss/pub/blob/02400b3a7bc08d1ab406436d4a0160bc85d13038/data/2023_03_26/ciHkVw.yaml"
-        },
-        {
-          "full_name": "slacxer/openclash",
-          "path": "howdy.yaml",
-          "raw_url": "https://raw.githubusercontent.com/slacxer/openclash/main/howdy.yaml",
-          "html_url": "https://github.com/slacxer/openclash/blob/af31ea29684074ab910d9d2f2a2d3fb76b09641f/howdy.yaml"
-        },
-        {
-          "full_name": "muhammadyasir0819/Akunvpn",
-          "path": "AKUN.yaml",
-          "raw_url": "https://raw.githubusercontent.com/muhammadyasir0819/Akunvpn/main/AKUN.yaml",
-          "html_url": "https://github.com/muhammadyasir0819/Akunvpn/blob/cbe4fa13848e60b9d31b16096e58e558b0bb38fb/AKUN.yaml"
-        }
-      ]
+      "total_count": 0,
+      "accepted_count": 0,
+      "accepted_sources": [],
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "query": "\"vmess://\" extension:txt",
