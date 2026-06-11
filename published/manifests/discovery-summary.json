@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-06-10T06:44:08.241974+00:00",
+  "updated_at": "2026-06-11T07:07:06.935584+00:00",
   "seed_repo_files": [
     "config/github_seed_repos.txt",
     "published/manifests/search-discovered-repos.txt"
   ],
   "patterns_file": "config/discovery_patterns.yaml",
-  "discovered_source_count": 237,
+  "discovered_source_count": 235,
   "discovered_sources_file": "published/manifests/discovered-source-urls.txt",
   "repos": [
     {
@@ -54,7 +54,7 @@
       "ref": "master",
       "tree_truncated": false,
       "candidate_file_count": 51,
-      "accepted_source_count": 20,
+      "accepted_source_count": 17,
       "accepted_sources": [
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
@@ -62,18 +62,15 @@
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_CH.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_DE.meta.yml",
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_GB.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_HK.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_HK.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_JP.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_JP.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_KR.meta.yml",
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_KR.yml",
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SE.meta.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_RU.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SG.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SG.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_TW.meta.yml",
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_TW.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_US.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_US.yml"
       ],
@@ -476,7 +473,7 @@
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_JP.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_JP.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_KR.meta.yml",
-        "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_KR.yml",
+        "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_RU.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_SG.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_SG.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_TW.meta.yml",
@@ -616,21 +613,105 @@
       ]
     },
     {
-      "seed_repo": "Opnwall/Mihomo-for-OPNsense",
+      "seed_repo": "junjun266/FreeProxyGo",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 3,
-      "accepted_source_count": 1,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/Opnwall/Mihomo-for-OPNsense/main/conf/config.yaml"
-      ],
+      "candidate_file_count": 2,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
       "sample_rejections": [
+        {
+          "path": "READEME.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "imzyb/MiSub",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 19,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": "README-zh.md",
+          "reason": "content_not_matching"
+        },
         {
           "path": "README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "conf/sub/template_config.yaml",
+          "path": "docs/CRON_DASHBOARD_GUIDE.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/MIGRATION_GUIDE.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/OPERATOR_CHAIN_GUIDE.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/PROJECT_STRUCTURE.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/TECHNICAL_DETAILS.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/UPGRADE_V2.5.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/api-routes.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/architecture.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/codebase-review.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/data-model.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/examples/custom-rules-template.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/fetch-proxy-tutorial.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/navigation-component-architecture.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/plans/2026-05-14-builtin-subscription-conversion-audit.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/subscription-request-flow.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/ui-navigation-regression-checklist.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "public/robots.txt",
           "reason": "content_not_matching"
         }
       ]
@@ -639,14 +720,15 @@
       "seed_repo": "Au1rxx/free-vpn-subscriptions",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 22,
-      "accepted_source_count": 6,
+      "candidate_file_count": 26,
+      "accepted_source_count": 7,
       "accepted_sources": [
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-CA.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-DE.yaml",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-GB.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-JP.yaml",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-NL.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-US.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-DE.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml"
       ],
       "sample_rejections": [
@@ -703,7 +785,19 @@
           "reason": "content_not_matching"
         },
         {
+          "path": "output/by-country/v2ray-base64-DE.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "output/by-country/v2ray-base64-GB.txt",
+          "reason": "content_not_matching"
+        },
+        {
           "path": "output/by-country/v2ray-base64-JP.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "output/by-country/v2ray-base64-NL.txt",
           "reason": "content_not_matching"
         },
         {
@@ -717,71 +811,109 @@
       ]
     },
     {
-      "seed_repo": "junjun266/FreeProxyGo",
+      "seed_repo": "Opnwall/Mihomo-for-OPNsense",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 2,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
+      "candidate_file_count": 3,
+      "accepted_source_count": 1,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/Opnwall/Mihomo-for-OPNsense/main/conf/config.yaml"
+      ],
       "sample_rejections": [
         {
-          "path": "READEME.md",
+          "path": "README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "README.md",
+          "path": "conf/sub/template_config.yaml",
           "reason": "content_not_matching"
         }
       ]
     },
     {
-      "seed_repo": "sub-store-org/Sub-Store",
+      "seed_repo": "Aethersailor/SubConverter-Extended",
       "ref": "master",
       "tree_truncated": false,
-      "candidate_file_count": 6,
+      "candidate_file_count": 16,
       "accepted_source_count": 0,
       "accepted_sources": [],
       "sample_rejections": [
+        {
+          "path": "CMakeLists.txt",
+          "reason": "content_not_matching"
+        },
         {
           "path": "README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "backend/pnpm-lock.yaml",
+          "path": "base/base/forcerule.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "backend/pnpm-workspace.yaml",
+          "path": "base/base/simple_base.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "config/Egern.yaml",
+          "path": "base/config/example_external_config.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "config/README.md",
+          "path": "base/pref.example.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/brainstorms/2026-05-15-h2-connect-proxy-headers-requirements.md",
+          "path": "base/snippets/emoji.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "base/snippets/groups.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "base/snippets/groups_forcerule.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "base/snippets/rename_node.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "base/snippets/rulesets.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "base/snippets/rulesets_remote.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "bridge/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docker-compose.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/security-profiles.zh-CN.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "tests/snapshots/README.md",
           "reason": "content_not_matching"
         }
       ]
     },
     {
-      "seed_repo": "ZeroDeng01/sublinkPro",
+      "seed_repo": "sinspired/subs-check-pro",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 40,
+      "candidate_file_count": 20,
       "accepted_source_count": 0,
       "accepted_sources": [],
       "sample_rejections": [
         {
-          "path": ".golangci.yml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "AGENTS.md",
+          "path": ".goreleaser.yaml",
           "reason": "content_not_matching"
         },
         {
@@ -789,71 +921,75 @@
           "reason": "content_not_matching"
         },
         {
-          "path": "README.zh-CN.md",
+          "path": "doc/base.yaml",
           "reason": "content_not_matching"
         },
         {
-          "path": "config.example.yaml",
+          "path": "docs-site/docs/Cloudflare-Tunnel.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docker-compose.example.yml",
+          "path": "docs-site/docs/Deployment.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/configuration.md",
+          "path": "docs-site/docs/Features-Details.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/configuration.zh-CN.md",
+          "path": "docs-site/docs/File-Service.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/development.md",
+          "path": "docs-site/docs/Home.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/development.zh-CN.md",
+          "path": "docs-site/docs/Notifications.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/features/airport.md",
+          "path": "docs-site/docs/Speedtest.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/features/airport.zh-CN.md",
+          "path": "docs-site/docs/Storage.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/features/chain-proxy.md",
+          "path": "docs-site/docs/Subscriptions.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/features/chain-proxy.zh-CN.md",
+          "path": "docs-site/docs/System-Proxy.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/features/cloudflare-tunnel.md",
+          "path": "docs-site/docs/android.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/features/cloudflare-tunnel.zh-CN.md",
+          "path": "docs-site/docs/method-gist.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/features/host.md",
+          "path": "docs-site/docs/method-r2.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/features/host.zh-CN.md",
+          "path": "docs-site/docs/method-webdav.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/features/mfa.md",
+          "path": "docs-site/docs/sub-store-教程.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/features/mfa.zh-CN.md",
+          "path": "docs-site/pnpm-lock.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs-site/pnpm-workspace.yaml",
           "reason": "content_not_matching"
         }
       ]
@@ -866,6 +1002,26 @@
       "accepted_source_count": 0,
       "accepted_sources": [],
       "sample_rejections": [
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "PuddinCat/BestClash",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 3,
+      "accepted_source_count": 1,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml"
+      ],
+      "sample_rejections": [
+        {
+          "path": "5M.txt",
+          "reason": "content_not_matching"
+        },
         {
           "path": "README.md",
           "reason": "content_not_matching"
@@ -980,26 +1136,6 @@
         },
         {
           "path": "sub/list/36.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "PuddinCat/BestClash",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 3,
-      "accepted_source_count": 1,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml"
-      ],
-      "sample_rejections": [
-        {
-          "path": "5M.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README.md",
           "reason": "content_not_matching"
         }
       ]
@@ -1155,7 +1291,7 @@
       "seed_repo": "rtwo2/FastNodes",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 99,
+      "candidate_file_count": 101,
       "accepted_source_count": 0,
       "accepted_sources": [],
       "sample_rejections": [
@@ -1208,6 +1344,10 @@
           "reason": "content_not_matching"
         },
         {
+          "path": "sub/countries/AQ.txt",
+          "reason": "content_not_matching"
+        },
+        {
           "path": "sub/countries/AR.txt",
           "reason": "content_not_matching"
         },
@@ -1233,48 +1373,6 @@
         },
         {
           "path": "sub/countries/BR.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/countries/BY.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "randyap8-wq/Micro-Expert-Router-SSD-Streamed-MoE-MER",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 7,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "deploy/helm/mer/Chart.yaml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "deploy/helm/mer/templates/all.yaml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "deploy/helm/mer/values.yaml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docker-compose.yml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/distributed.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/production.md",
           "reason": "content_not_matching"
         }
       ]
