@@ -1,6 +1,6 @@
-updated_at: '2026-06-13T06:34:14.713870+00:00'
+updated_at: '2026-06-14T06:57:41.887485+00:00'
 pool_name: github-source-raw
-proxy_count: 28698
+proxy_count: 16433
 source_list_path: published/manifests/effective-source-urls.txt
 output_pool_path: published/pools/github-source-raw.yaml
 source_details:
@@ -11,11 +11,11 @@ source_details:
 - url: https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml
   source_repo: snakem982/proxypool
   source_type: clash-yaml
-  proxy_count: 4
+  proxy_count: 2
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 144
+  proxy_count: 141
 - url: https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml
   source_repo: vxiaov/free_proxies
   source_type: clash-yaml
@@ -73,14 +73,23 @@ source_details:
   source_type: error
   proxy_count: 0
   error: 'Unable to parse subscription as Clash YAML or Base64 URI list: yaml root type unsupported: dict; base64 decode failed: string argument should contain only ASCII characters; base64 decode failed: string argument should contain only ASCII characters'
-- url: https://raw.githubusercontent.com/moneyfly1/jichangnodes/main/sub/250518/clash_config.yaml
-  source_repo: moneyfly1/jichangnodes
+- url: https://raw.githubusercontent.com/efrzz/clash-config/main/provider/raw.yaml
+  source_repo: efrzz/clash-config
   source_type: clash-yaml
-  proxy_count: 190
+  proxy_count: 6
+- url: https://raw.githubusercontent.com/AnggaR96s/ClashRules/main/ID.yaml
+  source_repo: AnggaR96s/ClashRules
+  source_type: clash-yaml
+  proxy_count: 11
+- url: https://raw.githubusercontent.com/3878590578/VPSscript/main/flclashyaml/speedtest.yaml
+  source_repo: 3878590578/VPSscript
+  source_type: error
+  proxy_count: 0
+  error: 'HTTP Error 404: Not Found'
 - url: https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray-2.txt
   source_repo: snakem982/proxypool
   source_type: base64-uri
-  proxy_count: 3
+  proxy_count: 1
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
@@ -88,7 +97,7 @@ source_details:
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.meta.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 144
+  proxy_count: 141
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
@@ -96,7 +105,7 @@ source_details:
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_DE.meta.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 26
+  proxy_count: 25
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_DE.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
@@ -856,11 +865,11 @@ source_details:
 - url: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml
   source_repo: chengaopan/AutoMergePublicNodes
   source_type: clash-yaml
-  proxy_count: 89
+  proxy_count: 86
 - url: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes.meta.yml
   source_repo: chengaopan/AutoMergePublicNodes
   source_type: clash-yaml
-  proxy_count: 89
+  proxy_count: 86
 - url: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes.yml
   source_repo: chengaopan/AutoMergePublicNodes
   source_type: clash-yaml
@@ -924,47 +933,55 @@ source_details:
 - url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-CA.yaml
   source_repo: Au1rxx/free-vpn-subscriptions
   source_type: clash-yaml
-  proxy_count: 3
+  proxy_count: 4
 - url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-DE.yaml
   source_repo: Au1rxx/free-vpn-subscriptions
   source_type: clash-yaml
-  proxy_count: 4
-- url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-ES.yaml
+  proxy_count: 10
+- url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-FR.yaml
   source_repo: Au1rxx/free-vpn-subscriptions
   source_type: clash-yaml
-  proxy_count: 4
+  proxy_count: 3
 - url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-GB.yaml
   source_repo: Au1rxx/free-vpn-subscriptions
   source_type: clash-yaml
-  proxy_count: 17
+  proxy_count: 8
 - url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-HK.yaml
   source_repo: Au1rxx/free-vpn-subscriptions
   source_type: clash-yaml
-  proxy_count: 7
+  proxy_count: 12
 - url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-JP.yaml
   source_repo: Au1rxx/free-vpn-subscriptions
   source_type: clash-yaml
-  proxy_count: 7
+  proxy_count: 6
+- url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-KR.yaml
+  source_repo: Au1rxx/free-vpn-subscriptions
+  source_type: clash-yaml
+  proxy_count: 3
 - url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-NL.yaml
   source_repo: Au1rxx/free-vpn-subscriptions
   source_type: clash-yaml
-  proxy_count: 5
+  proxy_count: 10
+- url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-RO.yaml
+  source_repo: Au1rxx/free-vpn-subscriptions
+  source_type: clash-yaml
+  proxy_count: 3
 - url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-US.yaml
   source_repo: Au1rxx/free-vpn-subscriptions
   source_type: clash-yaml
-  proxy_count: 31
-- url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-DE.txt
-  source_repo: Au1rxx/free-vpn-subscriptions
-  source_type: base64-uri
-  proxy_count: 4
+  proxy_count: 32
 - url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-HK.txt
   source_repo: Au1rxx/free-vpn-subscriptions
   source_type: base64-uri
-  proxy_count: 7
+  proxy_count: 12
+- url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-RO.txt
+  source_repo: Au1rxx/free-vpn-subscriptions
+  source_type: base64-uri
+  proxy_count: 3
 - url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml
   source_repo: Au1rxx/free-vpn-subscriptions
   source_type: clash-yaml
-  proxy_count: 103
+  proxy_count: 122
 - url: https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity.yml
   source_repo: mahdibland/V2RayAggregator
   source_type: clash-yaml
@@ -976,7 +993,7 @@ source_details:
 - url: https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml
   source_repo: mahdibland/V2RayAggregator
   source_type: clash-yaml
-  proxy_count: 4569
+  proxy_count: 4514
 - url: https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml
   source_repo: PuddinCat/BestClash
   source_type: clash-yaml
@@ -1001,218 +1018,6 @@ source_details:
   source_repo: NiREvil/vless
   source_type: clash-yaml
   proxy_count: 151
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/continents/Africa.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 1000
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/continents/Asia.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 1000
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/continents/Europe.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 1000
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/continents/NorthAmerica.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 1000
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/continents/Oceania.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 192
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/continents/SouthAmerica.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 64
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/AE.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 232
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/AL.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 16
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/AM.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 79
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/AQ.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 3
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/AR.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 5
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/AT.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 173
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/AU.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 111
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/BA.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 5
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/BD.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 3
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/BE.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 63
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/BG.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 52
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/BR.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 44
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/BY.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 17
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/BZ.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 32
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/CL.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 6
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/CN.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 23
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/CO.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 3
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/CW.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 4
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/CY.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 126
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/CZ.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 118
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/DE.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 1000
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/DK.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 27
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/DO.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 7
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/EC.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 3
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/EE.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 112
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/FI.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 733
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/FR.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 1000
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/GB.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 1000
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/GI.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 3
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/GR.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 36
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/HR.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 16
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/HU.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 49
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/ID.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 3
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IE.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 27
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IL.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 46
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IM.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 43
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IN.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 47
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IQ.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 3
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IR.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 1000
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IS.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 7
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IT.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 535
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/JO.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 13
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/JP.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 623
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/KG.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 3
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/KH.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 4
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/LT.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 260
-- url: https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/LU.yaml
-  source_repo: rtwo2/FastNodes
-  source_type: clash-yaml
-  proxy_count: 85
 source_urls:
 - https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml
 - https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml
@@ -1231,7 +1036,9 @@ source_urls:
 - https://raw.githubusercontent.com/go4sharing/sub/main/2025/12-05.yaml
 - https://raw.githubusercontent.com/10ium/VpnClashFaCollector/main/sub/final/DigiHubAI/clash.yaml
 - https://raw.githubusercontent.com/Loongphy/mihomo-rules/main/override.yaml
-- https://raw.githubusercontent.com/moneyfly1/jichangnodes/main/sub/250518/clash_config.yaml
+- https://raw.githubusercontent.com/efrzz/clash-config/main/provider/raw.yaml
+- https://raw.githubusercontent.com/AnggaR96s/ClashRules/main/ID.yaml
+- https://raw.githubusercontent.com/3878590578/VPSscript/main/flclashyaml/speedtest.yaml
 - https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray-2.txt
 - https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml
 - https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.meta.yml
@@ -1445,14 +1252,16 @@ source_urls:
 - https://raw.githubusercontent.com/free18/v2ray/main/v.txt
 - https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-CA.yaml
 - https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-DE.yaml
-- https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-ES.yaml
+- https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-FR.yaml
 - https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-GB.yaml
 - https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-HK.yaml
 - https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-JP.yaml
+- https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-KR.yaml
 - https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-NL.yaml
+- https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-RO.yaml
 - https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-US.yaml
-- https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-DE.txt
 - https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-HK.txt
+- https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-RO.txt
 - https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml
 - https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity.yml
 - https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/airport_merge_base64.txt
@@ -1463,56 +1272,3 @@ source_urls:
 - https://raw.githubusercontent.com/NiREvil/vless/main/edge/assets/clash-12.yml
 - https://raw.githubusercontent.com/NiREvil/vless/main/sub/clash-meta-wg.yml
 - https://raw.githubusercontent.com/NiREvil/vless/main/sub/clash-meta.yml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/continents/Africa.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/continents/Asia.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/continents/Europe.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/continents/NorthAmerica.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/continents/Oceania.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/continents/SouthAmerica.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/AE.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/AL.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/AM.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/AQ.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/AR.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/AT.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/AU.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/BA.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/BD.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/BE.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/BG.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/BR.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/BY.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/BZ.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/CL.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/CN.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/CO.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/CW.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/CY.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/CZ.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/DE.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/DK.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/DO.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/EC.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/EE.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/FI.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/FR.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/GB.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/GI.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/GR.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/HR.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/HU.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/ID.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IE.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IL.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IM.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IN.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IQ.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IR.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IS.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/IT.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/JO.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/JP.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/KG.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/KH.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/LT.yaml
-- https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/countries/LU.yaml
