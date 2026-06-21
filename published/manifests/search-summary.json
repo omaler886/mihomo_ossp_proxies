@@ -1,34 +1,16 @@
 {
-  "updated_at": "2026-06-20T06:39:55.000991+00:00",
+  "updated_at": "2026-06-21T07:06:11.382487+00:00",
   "queries_file": "config/search_queries.yaml",
-  "discovered_repo_count": 12,
+  "discovered_repo_count": 11,
   "discovered_source_count": 0,
   "output_repo_file": "published/manifests/search-discovered-repos.txt",
   "output_source_file": "published/manifests/search-discovered-source-urls.txt",
   "repository_search": [
     {
       "query": "clash mihomo subscription in:name,description,readme stars:>10",
-      "total_count": 124,
-      "accepted_count": 5,
+      "total_count": 128,
+      "accepted_count": 3,
       "accepted_repos": [
-        {
-          "full_name": "Au1rxx/free-vpn-subscriptions",
-          "default_branch": "main",
-          "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
-          "stargazers_count": 122
-        },
-        {
-          "full_name": "IRNova/Nova-Proxy",
-          "default_branch": "main",
-          "html_url": "https://github.com/IRNova/Nova-Proxy",
-          "stargazers_count": 1844
-        },
-        {
-          "full_name": "marvinli001/ClashMax",
-          "default_branch": "master",
-          "html_url": "https://github.com/marvinli001/ClashMax",
-          "stargazers_count": 45
-        },
         {
           "full_name": "junjun266/FreeProxyGo",
           "default_branch": "main",
@@ -36,10 +18,16 @@
           "stargazers_count": 106
         },
         {
-          "full_name": "NiREvil/vless",
+          "full_name": "Au1rxx/free-vpn-subscriptions",
           "default_branch": "main",
-          "html_url": "https://github.com/NiREvil/vless",
-          "stargazers_count": 1202
+          "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
+          "stargazers_count": 122
+        },
+        {
+          "full_name": "SubBoost/subboost",
+          "default_branch": "main",
+          "html_url": "https://github.com/SubBoost/subboost",
+          "stargazers_count": 231
         }
       ]
     },
@@ -49,22 +37,10 @@
       "accepted_count": 8,
       "accepted_repos": [
         {
-          "full_name": "FreeFolksOn/abc-configs-free-vpn-proxy-list",
-          "default_branch": "main",
-          "html_url": "https://github.com/FreeFolksOn/abc-configs-free-vpn-proxy-list",
-          "stargazers_count": 33
-        },
-        {
           "full_name": "0xRadikal/Free-v2ray-Configs",
           "default_branch": "main",
           "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
           "stargazers_count": 19
-        },
-        {
-          "full_name": "Au1rxx/free-vpn-subscriptions",
-          "default_branch": "main",
-          "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
-          "stargazers_count": 122
         },
         {
           "full_name": "OpenNetCN/clash",
@@ -73,10 +49,16 @@
           "stargazers_count": 408
         },
         {
-          "full_name": "NiREvil/vless",
+          "full_name": "FreeFolksOn/abc-configs-free-vpn-proxy-list",
           "default_branch": "main",
-          "html_url": "https://github.com/NiREvil/vless",
-          "stargazers_count": 1202
+          "html_url": "https://github.com/FreeFolksOn/abc-configs-free-vpn-proxy-list",
+          "stargazers_count": 33
+        },
+        {
+          "full_name": "Au1rxx/free-vpn-subscriptions",
+          "default_branch": "main",
+          "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
+          "stargazers_count": 122
         },
         {
           "full_name": "mahdibland/V2RayAggregator",
@@ -88,38 +70,32 @@
           "full_name": "PuddinCat/BestClash",
           "default_branch": "main",
           "html_url": "https://github.com/PuddinCat/BestClash",
-          "stargazers_count": 1696
+          "stargazers_count": 1698
         },
         {
           "full_name": "nodesfree/v2raynode",
           "default_branch": "main",
           "html_url": "https://github.com/nodesfree/v2raynode",
           "stargazers_count": 84
-        }
-      ]
-    },
-    {
-      "query": "proxy pool clash in:name,description,readme stars:>5",
-      "total_count": 237,
-      "accepted_count": 4,
-      "accepted_repos": [
-        {
-          "full_name": "IRNova/Nova-Proxy",
-          "default_branch": "main",
-          "html_url": "https://github.com/IRNova/Nova-Proxy",
-          "stargazers_count": 1844
         },
         {
           "full_name": "NiREvil/vless",
           "default_branch": "main",
           "html_url": "https://github.com/NiREvil/vless",
-          "stargazers_count": 1202
-        },
+          "stargazers_count": 1204
+        }
+      ]
+    },
+    {
+      "query": "proxy pool clash in:name,description,readme stars:>5",
+      "total_count": 238,
+      "accepted_count": 2,
+      "accepted_repos": [
         {
-          "full_name": "randyap8-wq/Micro-Expert-Router-SSD-Streamed-MoE-MER",
+          "full_name": "jasonwong1991/easy_proxies",
           "default_branch": "main",
-          "html_url": "https://github.com/randyap8-wq/Micro-Expert-Router-SSD-Streamed-MoE-MER",
-          "stargazers_count": 7
+          "html_url": "https://github.com/jasonwong1991/easy_proxies",
+          "stargazers_count": 1558
         },
         {
           "full_name": "mahdibland/V2RayAggregator",
@@ -132,14 +108,8 @@
     {
       "query": "mihomo nodes share in:name,description,readme stars:>5",
       "total_count": 80,
-      "accepted_count": 3,
+      "accepted_count": 2,
       "accepted_repos": [
-        {
-          "full_name": "Au1rxx/free-vpn-subscriptions",
-          "default_branch": "main",
-          "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
-          "stargazers_count": 122
-        },
         {
           "full_name": "junjun266/FreeProxyGo",
           "default_branch": "main",
@@ -147,10 +117,10 @@
           "stargazers_count": 106
         },
         {
-          "full_name": "NiREvil/vless",
+          "full_name": "Au1rxx/free-vpn-subscriptions",
           "default_branch": "main",
-          "html_url": "https://github.com/NiREvil/vless",
-          "stargazers_count": 1202
+          "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
+          "stargazers_count": 122
         }
       ]
     }
