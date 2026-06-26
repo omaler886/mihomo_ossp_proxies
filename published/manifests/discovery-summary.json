@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T06:20:35.166395+00:00",
+  "updated_at": "2026-06-26T06:22:26.550349+00:00",
   "seed_repo_files": [
     "config/github_seed_repos.txt",
     "published/manifests/search-discovered-repos.txt"
@@ -616,19 +616,127 @@
       ]
     },
     {
+      "seed_repo": "mowei-ie/router-vpn",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 57,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "asus-router/asus-advanced.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "asus-router/asus-merlin-flash.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "asus-router/asus-merlinclash-setup.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "chatgpt/chatgpt-guide.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "chatgpt/chatgpt-plus-guide.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "chatgpt/openai-api-guide.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "common/glossary.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "common/proxy-access-issues.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "common/proxy-rules.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "common/troubleshooting.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "cursor/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "cursor/cursor-guide.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "cursor/practice/cursor-aliyun-deploy.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "cursor/practice/cursor-build-static-site.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "cursor/practice/cursor-cli-vs-mcp.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "cursor/practice/cursor-fullstack-app.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "cursor/practice/cursor-ssh-linux.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "cursor/system-ops/cursor-fix-windows-system.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/cecc9e5f37a34ece8705857a3a31b0ca.txt",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "junjun266/FreeProxyGo",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 2,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": "READEME.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
       "seed_repo": "Au1rxx/free-vpn-subscriptions",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 26,
+      "candidate_file_count": 28,
       "accepted_source_count": 10,
       "accepted_sources": [
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-CA.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-DE.yaml",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-GB.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-HK.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-JP.yaml",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-NL.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-SC.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-US.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-DE.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-HK.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-SC.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml"
@@ -687,7 +795,15 @@
           "reason": "content_not_matching"
         },
         {
+          "path": "output/by-country/v2ray-base64-GB.txt",
+          "reason": "content_not_matching"
+        },
+        {
           "path": "output/by-country/v2ray-base64-JP.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "output/by-country/v2ray-base64-NL.txt",
           "reason": "content_not_matching"
         },
         {
@@ -696,60 +812,6 @@
         },
         {
           "path": "output/v2ray-base64.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "marvinli001/ClashMax",
-      "ref": "master",
-      "tree_truncated": false,
-      "candidate_file_count": 11,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": "CODE_OF_CONDUCT.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "CONTRIBUTING.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README.zh-CN.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Resources/Core/README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "SECURITY.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "THIRD_PARTY_NOTICES.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/DEVELOPMENT.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/MENU_BAR_RICH_PANEL_QA.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/TUN_SMOKE_TEST.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "project.yml",
           "reason": "content_not_matching"
         }
       ]
@@ -866,19 +928,21 @@
       ]
     },
     {
-      "seed_repo": "OpenNetCN/clash",
+      "seed_repo": "PuddinCat/BestClash",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 2,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
+      "candidate_file_count": 3,
+      "accepted_source_count": 1,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml"
+      ],
       "sample_rejections": [
         {
-          "path": "README.md",
+          "path": "5M.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "daily-news.md",
+          "path": "README.md",
           "reason": "content_not_matching"
         }
       ]
@@ -978,21 +1042,19 @@
       ]
     },
     {
-      "seed_repo": "PuddinCat/BestClash",
+      "seed_repo": "OpenNetCN/clash",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 3,
-      "accepted_source_count": 1,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml"
-      ],
+      "candidate_file_count": 2,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
       "sample_rejections": [
         {
-          "path": "5M.txt",
+          "path": "README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "README.md",
+          "path": "daily-news.md",
           "reason": "content_not_matching"
         }
       ]
@@ -1140,6 +1202,44 @@
         },
         {
           "path": "edge/assets/p-list-march.txt",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "randyap8-wq/Micro-Expert-Router-SSD-Streamed-MoE-MER",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 7,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "deploy/helm/mer/Chart.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "deploy/helm/mer/templates/all.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "deploy/helm/mer/values.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docker-compose.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/distributed.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/production.md",
           "reason": "content_not_matching"
         }
       ]
