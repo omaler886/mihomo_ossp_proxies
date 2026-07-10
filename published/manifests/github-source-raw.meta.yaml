@@ -1,6 +1,6 @@
-updated_at: '2026-07-09T06:19:29.461531+00:00'
+updated_at: '2026-07-10T06:16:53.293293+00:00'
 pool_name: github-source-raw
-proxy_count: 22874
+proxy_count: 22749
 source_list_path: published/manifests/effective-source-urls.txt
 output_pool_path: published/pools/github-source-raw.yaml
 source_details:
@@ -11,11 +11,11 @@ source_details:
 - url: https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml
   source_repo: snakem982/proxypool
   source_type: clash-yaml
-  proxy_count: 11
+  proxy_count: 23
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 221
+  proxy_count: 198
 - url: https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml
   source_repo: vxiaov/free_proxies
   source_type: clash-yaml
@@ -39,52 +39,39 @@ source_details:
 - url: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml
   source_repo: chengaopan/AutoMergePublicNodes
   source_type: clash-yaml
-  proxy_count: 19
+  proxy_count: 18
 - url: https://raw.githubusercontent.com/free18/v2ray/main/c.yaml
   source_repo: free18/v2ray
   source_type: clash-yaml
-  proxy_count: 207
+  proxy_count: 316
 - url: https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
   source_repo: ermaozi/get_subscribe
   source_type: clash-yaml
-  proxy_count: 2
-- url: https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt
-  source_repo: vxiaov/free_proxies
-  source_type: error
-  proxy_count: 0
-  error: 'Unable to parse subscription as Clash YAML or Base64 URI list: yaml root type unsupported: str; base64 decode failed: string argument should contain only ASCII characters; base64 decode failed: string argument should contain only ASCII characters'
-- url: https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray-2.txt
-  source_repo: snakem982/proxypool
-  source_type: base64-uri
-  proxy_count: 11
+  proxy_count: 18
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 44
+  proxy_count: 31
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.meta.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 221
+  proxy_count: 198
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 44
+  proxy_count: 31
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_DE.meta.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 19
-- url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_DE.yml
-  source_repo: peasoft/NoMoreWalls
-  source_type: clash-yaml
-  proxy_count: 1
+  proxy_count: 11
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_FR.meta.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 3
+  proxy_count: 1
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_GB.meta.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 3
+  proxy_count: 5
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_GB.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
@@ -92,7 +79,7 @@ source_details:
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_HK.meta.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 10
+  proxy_count: 8
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_HK.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
@@ -100,11 +87,11 @@ source_details:
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_JP.meta.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 11
+  proxy_count: 3
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_JP.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 7
+  proxy_count: 2
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_KR.meta.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
@@ -112,23 +99,23 @@ source_details:
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SG.meta.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 11
+  proxy_count: 6
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SG.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 7
+  proxy_count: 3
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_TW.meta.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 3
+  proxy_count: 2
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_US.meta.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 25
+  proxy_count: 20
 - url: https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_US.yml
   source_repo: peasoft/NoMoreWalls
   source_type: clash-yaml
-  proxy_count: 7
+  proxy_count: 6
 - url: https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/sub.txt
   source_repo: mfbpn/tg_mfbpn_sub
   source_type: base64-uri
@@ -836,19 +823,19 @@ source_details:
 - url: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml
   source_repo: chengaopan/AutoMergePublicNodes
   source_type: clash-yaml
-  proxy_count: 130
+  proxy_count: 116
 - url: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes.meta.yml
   source_repo: chengaopan/AutoMergePublicNodes
   source_type: clash-yaml
-  proxy_count: 130
+  proxy_count: 116
 - url: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes.yml
   source_repo: chengaopan/AutoMergePublicNodes
   source_type: clash-yaml
-  proxy_count: 19
+  proxy_count: 18
 - url: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_DE.meta.yml
   source_repo: chengaopan/AutoMergePublicNodes
   source_type: clash-yaml
-  proxy_count: 6
+  proxy_count: 5
 - url: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_FR.meta.yml
   source_repo: chengaopan/AutoMergePublicNodes
   source_type: clash-yaml
@@ -872,11 +859,11 @@ source_details:
 - url: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_JP.meta.yml
   source_repo: chengaopan/AutoMergePublicNodes
   source_type: clash-yaml
-  proxy_count: 4
+  proxy_count: 3
 - url: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_JP.yml
   source_repo: chengaopan/AutoMergePublicNodes
   source_type: clash-yaml
-  proxy_count: 3
+  proxy_count: 2
 - url: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_KR.meta.yml
   source_repo: chengaopan/AutoMergePublicNodes
   source_type: clash-yaml
@@ -896,7 +883,7 @@ source_details:
 - url: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_US.meta.yml
   source_repo: chengaopan/AutoMergePublicNodes
   source_type: clash-yaml
-  proxy_count: 14
+  proxy_count: 12
 - url: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_US.yml
   source_repo: chengaopan/AutoMergePublicNodes
   source_type: clash-yaml
@@ -904,47 +891,31 @@ source_details:
 - url: https://raw.githubusercontent.com/free18/v2ray/main/v.txt
   source_repo: free18/v2ray
   source_type: base64-uri
-  proxy_count: 207
-- url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-AU.yaml
-  source_repo: Au1rxx/free-vpn-subscriptions
+  proxy_count: 316
+- url: https://raw.githubusercontent.com/Aethersailor/SubConverter-Extended/master/tests/fixtures/mihomo-provider-subscription.yml
+  source_repo: Aethersailor/SubConverter-Extended
   source_type: clash-yaml
-  proxy_count: 3
+  proxy_count: 2
 - url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-CA.yaml
   source_repo: Au1rxx/free-vpn-subscriptions
   source_type: clash-yaml
-  proxy_count: 4
+  proxy_count: 5
 - url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-DE.yaml
   source_repo: Au1rxx/free-vpn-subscriptions
   source_type: clash-yaml
-  proxy_count: 14
-- url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-FR.yaml
-  source_repo: Au1rxx/free-vpn-subscriptions
-  source_type: clash-yaml
-  proxy_count: 4
-- url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-GB.yaml
-  source_repo: Au1rxx/free-vpn-subscriptions
-  source_type: clash-yaml
-  proxy_count: 9
-- url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-JP.yaml
-  source_repo: Au1rxx/free-vpn-subscriptions
-  source_type: clash-yaml
-  proxy_count: 6
-- url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-KR.yaml
-  source_repo: Au1rxx/free-vpn-subscriptions
-  source_type: clash-yaml
-  proxy_count: 7
-- url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-NL.yaml
-  source_repo: Au1rxx/free-vpn-subscriptions
-  source_type: clash-yaml
-  proxy_count: 9
+  proxy_count: 5
 - url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-US.yaml
   source_repo: Au1rxx/free-vpn-subscriptions
   source_type: clash-yaml
-  proxy_count: 32
+  proxy_count: 47
+- url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-DE.txt
+  source_repo: Au1rxx/free-vpn-subscriptions
+  source_type: base64-uri
+  proxy_count: 5
 - url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml
   source_repo: Au1rxx/free-vpn-subscriptions
   source_type: clash-yaml
-  proxy_count: 123
+  proxy_count: 84
 - url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/clash.yaml
   source_repo: 0xRadikal/Free-v2ray-Configs
   source_type: clash-yaml
@@ -964,15 +935,11 @@ source_details:
 - url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/light/clash.yaml
   source_repo: 0xRadikal/Free-v2ray-Configs
   source_type: clash-yaml
-  proxy_count: 369
+  proxy_count: 309
 - url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/protocols/vless_base64.txt
   source_repo: 0xRadikal/Free-v2ray-Configs
   source_type: base64-uri
-  proxy_count: 2226
-- url: https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml
-  source_repo: PuddinCat/BestClash
-  source_type: clash-yaml
-  proxy_count: 16
+  proxy_count: 2115
 - url: https://raw.githubusercontent.com/nodesfree/v2raynode/main/subscribe/clash.yml
   source_repo: nodesfree/v2raynode
   source_type: clash-yaml
@@ -988,7 +955,11 @@ source_details:
 - url: https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml
   source_repo: mahdibland/V2RayAggregator
   source_type: clash-yaml
-  proxy_count: 5407
+  proxy_count: 5428
+- url: https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml
+  source_repo: PuddinCat/BestClash
+  source_type: clash-yaml
+  proxy_count: 16
 source_urls:
 - https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml
 - https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta-2.yaml
@@ -1001,13 +972,10 @@ source_urls:
 - https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml
 - https://raw.githubusercontent.com/free18/v2ray/main/c.yaml
 - https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml
-- https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt
-- https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray-2.txt
 - https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml
 - https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.meta.yml
 - https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml
 - https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_DE.meta.yml
-- https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_DE.yml
 - https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_FR.meta.yml
 - https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_GB.meta.yml
 - https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_GB.yml
@@ -1215,15 +1183,11 @@ source_urls:
 - https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_US.meta.yml
 - https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_US.yml
 - https://raw.githubusercontent.com/free18/v2ray/main/v.txt
-- https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-AU.yaml
+- https://raw.githubusercontent.com/Aethersailor/SubConverter-Extended/master/tests/fixtures/mihomo-provider-subscription.yml
 - https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-CA.yaml
 - https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-DE.yaml
-- https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-FR.yaml
-- https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-GB.yaml
-- https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-JP.yaml
-- https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-KR.yaml
-- https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-NL.yaml
 - https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-US.yaml
+- https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-DE.txt
 - https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml
 - https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/clash.yaml
 - https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/archive/all_broken_base64.txt
@@ -1231,8 +1195,8 @@ source_urls:
 - https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/heavy/clash.yaml
 - https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/light/clash.yaml
 - https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/protocols/vless_base64.txt
-- https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml
 - https://raw.githubusercontent.com/nodesfree/v2raynode/main/subscribe/clash.yml
 - https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity.yml
 - https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/airport_merge_base64.txt
 - https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml
+- https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml
