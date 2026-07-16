@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-15T05:13:13.742385+00:00",
+  "updated_at": "2026-07-16T05:22:20.390977+00:00",
   "seed_repo_files": [
     "config/github_seed_repos.txt",
     "published/manifests/search-discovered-repos.txt"
   ],
   "patterns_file": "config/discovery_patterns.yaml",
-  "discovered_source_count": 244,
+  "discovered_source_count": 247,
   "discovered_sources_file": "published/manifests/discovered-source-urls.txt",
   "repos": [
     {
@@ -54,15 +54,18 @@
       "ref": "master",
       "tree_truncated": false,
       "candidate_file_count": 51,
-      "accepted_source_count": 22,
+      "accepted_source_count": 26,
       "accepted_sources": [
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes.yml",
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_CH.meta.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_CA.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_DE.meta.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_DE.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_EE.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_FR.meta.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_FR.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_GB.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_GB.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_HK.meta.yml",
@@ -76,6 +79,7 @@
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SG.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SG.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_TW.meta.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_TW.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_US.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_US.yml"
       ],
@@ -125,11 +129,11 @@
           "reason": "content_not_matching"
         },
         {
-          "path": "snippets/nodes_CA.meta.yml",
+          "path": "snippets/nodes_CA.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "snippets/nodes_CA.yml",
+          "path": "snippets/nodes_CH.meta.yml",
           "reason": "content_not_matching"
         },
         {
@@ -145,19 +149,19 @@
           "reason": "content_not_matching"
         },
         {
-          "path": "snippets/nodes_DE.yml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "snippets/nodes_EE.meta.yml",
-          "reason": "content_not_matching"
-        },
-        {
           "path": "snippets/nodes_EE.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "snippets/nodes_FR.yml",
+          "path": "snippets/nodes_RU.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "snippets/nodes_SE.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "snippets/nodes_redir.meta.yml",
           "reason": "content_not_matching"
         }
       ]
@@ -620,28 +624,10 @@
       ]
     },
     {
-      "seed_repo": "junjun266/FreeProxyGo",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 2,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": "READEME.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
       "seed_repo": "kort0881/vpn-vless-configs-russia",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 120,
+      "candidate_file_count": 109,
       "accepted_source_count": 0,
       "accepted_sources": [],
       "sample_rejections": [
@@ -723,6 +709,24 @@
         },
         {
           "path": "data/githubmirror/new/all_new.txt",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "junjun266/FreeProxyGo",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 2,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": "READEME.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README.md",
           "reason": "content_not_matching"
         }
       ]
@@ -822,6 +826,134 @@
         },
         {
           "path": "output/v2ray-base64.txt",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "SubBoost/subboost",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 7,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": "README-CN.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/CONTRIBUTING.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/THIRD_PARTY_NOTICES.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/release-notes.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "local/docker-compose.image.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "local/docker-compose.yml",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "ZeroDeng01/sublinkPro",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 92,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": ".agents/skills/cross-layer-sync/SKILL.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/doc-sync-check/SKILL.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/performance-check/SKILL.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/performance-check/references/algorithm-complexity.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/performance-check/references/api-optimization.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/performance-check/references/caching-strategies.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/performance-check/references/concurrency-guide.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/performance-check/references/database-optimization.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/performance-check/references/frontend-optimization.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/performance-check/references/memory-management.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/performance-check/references/network-optimization.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/post-dev-workflow/SKILL.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/post-dev-workflow/assets/commit-template.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/post-dev-workflow/references/commit-message-guide.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/post-dev-workflow/references/cross-layer-sync-rules.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/post-dev-workflow/references/documentation-sync-rules.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/post-dev-workflow/references/validation-commands.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/pre-commit-check/SKILL.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/security-review/SKILL.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/security-review/references/api-security-guide.md",
           "reason": "content_not_matching"
         }
       ]
@@ -938,19 +1070,21 @@
       ]
     },
     {
-      "seed_repo": "OpenNetCN/clash",
+      "seed_repo": "PuddinCat/BestClash",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 2,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
+      "candidate_file_count": 3,
+      "accepted_source_count": 1,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml"
+      ],
       "sample_rejections": [
         {
-          "path": "README.md",
+          "path": "5M.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "daily-news.md",
+          "path": "README.md",
           "reason": "content_not_matching"
         }
       ]
@@ -1050,73 +1184,109 @@
       ]
     },
     {
-      "seed_repo": "PuddinCat/BestClash",
+      "seed_repo": "OpenNetCN/clash",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 3,
-      "accepted_source_count": 1,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/PuddinCat/BestClash/main/proxies.yaml"
-      ],
+      "candidate_file_count": 2,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
       "sample_rejections": [
         {
-          "path": "5M.txt",
+          "path": "README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "README.md",
+          "path": "daily-news.md",
           "reason": "content_not_matching"
         }
       ]
     },
     {
-      "seed_repo": "nodesfree/v2raynode",
+      "seed_repo": "Ember-Moth/Star-Node",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 11,
-      "accepted_source_count": 1,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/nodesfree/v2raynode/main/subscribe/clash.yml"
-      ],
+      "candidate_file_count": 36,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
       "sample_rejections": [
+        {
+          "path": ".golangci.yml",
+          "reason": "content_not_matching"
+        },
         {
           "path": "README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "clash.yaml",
+          "path": "THIRD_PARTY_NOTICES.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/Android手机使用clash.md",
+          "path": "Taskfile.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/ClashVergeRev安装与使用指南.md",
+          "path": "internal/controller/config/testdata/invalid-pprof-port.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/Shadowrocket新手使用教程.md",
+          "path": "internal/controller/config/testdata/invalid-timeout.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/windows下载安装clash.md",
+          "path": "internal/controller/config/testdata/invalid-yaml.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "jichang/README.md",
+          "path": "internal/controller/config/testdata/legacy-valid.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "requirements.txt",
+          "path": "pkg/sagernet/README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "subscribe/v2ray.txt",
+          "path": "pkg/sagernet/sing-anytls/README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "v2ray.txt",
+          "path": "pkg/sagernet/sing-mieru/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "pkg/sagernet/sing-mux/.golangci.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "pkg/sagernet/sing-mux/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "pkg/sagernet/sing-quic/.golangci.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "pkg/sagernet/sing-quic/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "pkg/sagernet/sing-quic/congestion_meta1/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "pkg/sagernet/sing-quic/congestion_meta2/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "pkg/sagernet/sing-quic/workflows/debug.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "pkg/sagernet/sing-restls/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "pkg/sagernet/sing-shadowsocks/.golangci.yml",
           "reason": "content_not_matching"
         }
       ]
