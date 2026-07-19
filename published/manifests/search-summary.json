@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-07-18T05:04:33.244416+00:00",
+  "updated_at": "2026-07-19T05:31:20.098041+00:00",
   "queries_file": "config/search_queries.yaml",
-  "discovered_repo_count": 11,
-  "discovered_source_count": 0,
+  "discovered_repo_count": 10,
+  "discovered_source_count": 4,
   "output_repo_file": "published/manifests/search-discovered-repos.txt",
   "output_source_file": "published/manifests/search-discovered-source-urls.txt",
   "repository_search": [
     {
       "query": "clash mihomo subscription in:name,description,readme stars:>10",
       "total_count": 135,
-      "accepted_count": 6,
+      "accepted_count": 5,
       "accepted_repos": [
         {
-          "full_name": "junjun266/FreeProxyGo",
+          "full_name": "snakem982/proxypool",
           "default_branch": "main",
-          "html_url": "https://github.com/junjun266/FreeProxyGo",
-          "stargazers_count": 132
+          "html_url": "https://github.com/snakem982/proxypool",
+          "stargazers_count": 1913
         },
         {
           "full_name": "kort0881/vpn-vless-configs-russia",
@@ -24,28 +24,22 @@
           "stargazers_count": 530
         },
         {
-          "full_name": "Aethersailor/SubConverter-Extended",
-          "default_branch": "master",
-          "html_url": "https://github.com/Aethersailor/SubConverter-Extended",
-          "stargazers_count": 824
+          "full_name": "junjun266/FreeProxyGo",
+          "default_branch": "main",
+          "html_url": "https://github.com/junjun266/FreeProxyGo",
+          "stargazers_count": 132
+        },
+        {
+          "full_name": "Kindness-Kismet/stelliberty",
+          "default_branch": "stable",
+          "html_url": "https://github.com/Kindness-Kismet/stelliberty",
+          "stargazers_count": 988
         },
         {
           "full_name": "Au1rxx/free-vpn-subscriptions",
           "default_branch": "main",
           "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
-          "stargazers_count": 334
-        },
-        {
-          "full_name": "sub-store-org/Sub-Store",
-          "default_branch": "master",
-          "html_url": "https://github.com/sub-store-org/Sub-Store",
-          "stargazers_count": 10103
-        },
-        {
-          "full_name": "snakem982/proxypool",
-          "default_branch": "main",
-          "html_url": "https://github.com/snakem982/proxypool",
-          "stargazers_count": 1909
+          "stargazers_count": 339
         }
       ]
     },
@@ -54,12 +48,6 @@
       "total_count": 99,
       "accepted_count": 6,
       "accepted_repos": [
-        {
-          "full_name": "OpenNetCN/clash",
-          "default_branch": "main",
-          "html_url": "https://github.com/OpenNetCN/clash",
-          "stargazers_count": 477
-        },
         {
           "full_name": "FreeFolksOn/abc-configs-free-vpn-proxy-list",
           "default_branch": "main",
@@ -73,22 +61,28 @@
           "stargazers_count": 40
         },
         {
+          "full_name": "OpenNetCN/clash",
+          "default_branch": "main",
+          "html_url": "https://github.com/OpenNetCN/clash",
+          "stargazers_count": 480
+        },
+        {
           "full_name": "Au1rxx/free-vpn-subscriptions",
           "default_branch": "main",
           "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
-          "stargazers_count": 334
+          "stargazers_count": 339
+        },
+        {
+          "full_name": "PuddinCat/BestClash",
+          "default_branch": "main",
+          "html_url": "https://github.com/PuddinCat/BestClash",
+          "stargazers_count": 1807
         },
         {
           "full_name": "mahdibland/V2RayAggregator",
           "default_branch": "master",
           "html_url": "https://github.com/mahdibland/V2RayAggregator",
           "stargazers_count": 4002
-        },
-        {
-          "full_name": "PuddinCat/BestClash",
-          "default_branch": "main",
-          "html_url": "https://github.com/PuddinCat/BestClash",
-          "stargazers_count": 1805
         }
       ]
     },
@@ -120,7 +114,7 @@
           "full_name": "Au1rxx/free-vpn-subscriptions",
           "default_branch": "main",
           "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
-          "stargazers_count": 334
+          "stargazers_count": 339
         }
       ]
     }
@@ -128,10 +122,34 @@
   "code_search": [
     {
       "query": "\"proxies:\" \"type: vless\" extension:yaml",
-      "total_count": 0,
-      "accepted_count": 0,
-      "accepted_sources": [],
-      "error": "HTTP Error 429: Too Many Requests"
+      "total_count": 1532,
+      "accepted_count": 4,
+      "accepted_sources": [
+        {
+          "full_name": "dalazhi/v2ray",
+          "path": "data/all-12.yaml",
+          "raw_url": "https://raw.githubusercontent.com/dalazhi/v2ray/main/data/all-12.yaml",
+          "html_url": "https://github.com/dalazhi/v2ray/blob/9f5631919319b19615fb73a71d454b0cc51be6b8/data/all-12.yaml"
+        },
+        {
+          "full_name": "go4sharing/sub",
+          "path": "2025/11-30.yaml",
+          "raw_url": "https://raw.githubusercontent.com/go4sharing/sub/main/2025/11-30.yaml",
+          "html_url": "https://github.com/go4sharing/sub/blob/112543ae057bc66188996f9bcb2315e25c0d3ded/2025/11-30.yaml"
+        },
+        {
+          "full_name": "10ium/VpnClashFaCollector",
+          "path": "sub/final/Father_vpn/clash.yaml",
+          "raw_url": "https://raw.githubusercontent.com/10ium/VpnClashFaCollector/main/sub/final/Father_vpn/clash.yaml",
+          "html_url": "https://github.com/10ium/VpnClashFaCollector/blob/2e7ab592c5558cc0494f00f57b0b02831613e512/sub/final/Father_vpn/clash.yaml"
+        },
+        {
+          "full_name": "lyqnihao/proxy",
+          "path": "clash-meta/output.yaml",
+          "raw_url": "https://raw.githubusercontent.com/lyqnihao/proxy/main/clash-meta/output.yaml",
+          "html_url": "https://github.com/lyqnihao/proxy/blob/1678fd2432f0d2bb45b93c7ce01d2120d0c8be35/clash-meta/output.yaml"
+        }
+      ]
     },
     {
       "query": "\"proxies:\" \"type: vmess\" extension:yaml",
