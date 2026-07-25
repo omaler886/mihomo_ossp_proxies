@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-07-24T05:32:05.968207+00:00",
+  "updated_at": "2026-07-25T05:26:13.129802+00:00",
   "seed_repo_files": [
     "config/github_seed_repos.txt",
     "published/manifests/search-discovered-repos.txt"
   ],
   "patterns_file": "config/discovery_patterns.yaml",
-  "discovered_source_count": 232,
+  "discovered_source_count": 231,
   "discovered_sources_file": "published/manifests/discovered-source-urls.txt",
   "repos": [
     {
@@ -132,7 +132,7 @@
         },
         {
           "path": "snippets/nodes_EE.yml",
-          "reason": "The read operation timed out"
+          "reason": "content_not_matching"
         },
         {
           "path": "snippets/nodes_FR.yml",
@@ -288,11 +288,10 @@
       "ref": "main",
       "tree_truncated": false,
       "candidate_file_count": 5,
-      "accepted_source_count": 3,
+      "accepted_source_count": 2,
       "accepted_sources": [
         "https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml",
-        "https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/mihomo_sub.yaml",
-        "https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/vray_sub.txt"
+        "https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/mihomo_sub.yaml"
       ],
       "sample_rejections": [
         {
@@ -301,6 +300,10 @@
         },
         {
           "path": "requirements.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "subscription/vray_sub.txt",
           "reason": "content_not_matching"
         }
       ]
@@ -601,98 +604,8 @@
       ]
     },
     {
-      "seed_repo": "kort0881/vpn-vless-configs-russia",
+      "seed_repo": "nicobailon/pi-web-access",
       "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 120,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "USAGE.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "archive/my_sources/generated/vless.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "archive/subscriptions/all.part1.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "archive/subscriptions/all.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "archive/subscriptions/all_base64.part1.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "archive/subscriptions/all_base64.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "archive/subscriptions/sni_filtered.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "archive/subscriptions/sni_filtered_base64.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "archive/test_upload.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "archive/vpn-files/all_posts.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "data/filtered/sni_ru.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "data/githubmirror/clean/hy2.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "data/githubmirror/clean/hysteria2.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "data/githubmirror/clean/ss.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "data/githubmirror/clean/trojan.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "data/githubmirror/clean/vless.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "data/githubmirror/clean/vmess.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "data/githubmirror/new/all_new.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "data/githubmirror/new/by_protocol/hy2/hy2_001.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "Kindness-Kismet/stelliberty",
-      "ref": "stable",
       "tree_truncated": false,
       "candidate_file_count": 2,
       "accepted_source_count": 0,
@@ -703,13 +616,13 @@
           "reason": "content_not_matching"
         },
         {
-          "path": "scripts/assets/override.yaml",
+          "path": "skills/librarian/SKILL.md",
           "reason": "content_not_matching"
         }
       ]
     },
     {
-      "seed_repo": "junjun266/FreeProxyGo",
+      "seed_repo": "kenzok8/openwrt-clashoo",
       "ref": "main",
       "tree_truncated": false,
       "candidate_file_count": 2,
@@ -717,7 +630,7 @@
       "accepted_sources": [],
       "sample_rejections": [
         {
-          "path": "READEME.md",
+          "path": "CONTRIBUTING.md",
           "reason": "content_not_matching"
         },
         {
@@ -730,7 +643,7 @@
       "seed_repo": "Aethersailor/Custom_OpenClash_Rules",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 71,
+      "candidate_file_count": 75,
       "accepted_source_count": 0,
       "accepted_sources": [],
       "sample_rejections": [
@@ -759,7 +672,15 @@
           "reason": "content_not_matching"
         },
         {
+          "path": "cfg/yaml/Custom_Clash_Fallback.yaml",
+          "reason": "content_not_matching"
+        },
+        {
           "path": "cfg/yaml/Custom_Clash_Full.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "cfg/yaml/Custom_Clash_Full_Fallback.yaml",
           "reason": "content_not_matching"
         },
         {
@@ -767,7 +688,15 @@
           "reason": "content_not_matching"
         },
         {
+          "path": "cfg/yaml/Custom_Clash_GFW_Fallback.yaml",
+          "reason": "content_not_matching"
+        },
+        {
           "path": "cfg/yaml/Custom_Clash_Lite.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "cfg/yaml/Custom_Clash_Lite_Fallback.yaml",
           "reason": "content_not_matching"
         },
         {
@@ -797,21 +726,45 @@
         {
           "path": "doc/ipv6/openwrt/pics/README.md",
           "reason": "content_not_matching"
-        },
+        }
+      ]
+    },
+    {
+      "seed_repo": "junjun266/FreeProxyGo",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 2,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
         {
-          "path": "doc/openclash/README.md",
+          "path": "READEME.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "doc/openclash/pics/README.md",
+          "path": "README.md",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "IRNova/Nova-Proxy",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 3,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": "README.fa.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "game_rule/Microsoft-Flight-Simulator-2020.yaml",
+          "path": "README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "game_rule/Overwatch2_Asia(Singapore).yaml",
+          "path": "UPDATES.md",
           "reason": "content_not_matching"
         }
       ]
