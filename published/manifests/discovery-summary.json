@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-19T03:15:36.534541+00:00",
+  "updated_at": "2026-08-20T03:12:41.345138+00:00",
   "seed_repo_files": [
     "config/github_seed_repos.txt",
     "published/manifests/search-discovered-repos.txt"
   ],
   "patterns_file": "config/discovery_patterns.yaml",
-  "discovered_source_count": 300,
+  "discovered_source_count": 242,
   "discovered_sources_file": "published/manifests/discovered-source-urls.txt",
   "repos": [
     {
@@ -33,7 +33,7 @@
       "ref": "master",
       "tree_truncated": false,
       "candidate_file_count": 52,
-      "accepted_source_count": 24,
+      "accepted_source_count": 25,
       "accepted_sources": [
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
@@ -57,6 +57,7 @@
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SG.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_SG.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_TW.meta.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_TW.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_US.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_US.yml"
       ],
@@ -447,7 +448,7 @@
       "ref": "master",
       "tree_truncated": false,
       "candidate_file_count": 48,
-      "accepted_source_count": 19,
+      "accepted_source_count": 18,
       "accepted_sources": [
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
@@ -462,7 +463,6 @@
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_JP.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_JP.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_KR.meta.yml",
-        "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_RU.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_SE.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_SG.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_SG.yml",
@@ -602,96 +602,6 @@
       ]
     },
     {
-      "seed_repo": "rtwo2/FastNodes",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 120,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": "ProxyCollector/bogons.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Africa.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Africa_part2.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Africa_part3.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Africa_part4.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Antarctica.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Asia.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Asia_part10.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Asia_part11.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Asia_part12.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Asia_part13.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Asia_part14.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Asia_part15.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Asia_part16.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Asia_part17.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Asia_part18.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Asia_part19.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Asia_part2.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/continents/Asia_part20.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
       "seed_repo": "zhuhaiuk/free-nodes",
       "ref": "main",
       "tree_truncated": false,
@@ -733,6 +643,96 @@
         },
         {
           "path": "robots.txt",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "WhiteDNS/WhiteVPN",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 111,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": ".agents/skills/hallmark/SKILL.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/anti-patterns.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/assets.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/color.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/component-cookbook.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/components/c1-outlined-chip.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/components/c2-inline-form-as-cta.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/components/c3-typographic-link.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/components/c4-sticky-bottom-bar.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/components/f1-bento-grid.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/components/f2-sticky-scroll-stack.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/components/f3-tabular-spec-sheet.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/components/f4-step-sequence.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/components/f5-annotated-screenshot.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/components/f6-product-card-grid.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/components/ft1-mast-headed.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/components/ft2-inline-rule-single-line.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/components/ft3-index-style-category-list.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/components/ft4-dense-typographic.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".agents/skills/hallmark/references/components/ft5-statement.md",
           "reason": "content_not_matching"
         }
       ]
@@ -887,7 +887,7 @@
       "seed_repo": "0xRadikal/Free-v2ray-Configs",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 58,
+      "candidate_file_count": 56,
       "accepted_source_count": 8,
       "accepted_sources": [
         "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/clash.yaml",
@@ -983,6 +983,20 @@
       ]
     },
     {
+      "seed_repo": "FreeFolksOn/abc-configs-free-vpn-proxy-list",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 1,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
       "seed_repo": "PuddinCat/BestClash",
       "ref": "main",
       "tree_truncated": false,
@@ -1016,20 +1030,6 @@
         },
         {
           "path": "daily-news.md",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "FreeFolksOn/abc-configs-free-vpn-proxy-list",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 1,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": "README.md",
           "reason": "content_not_matching"
         }
       ]
@@ -1129,216 +1129,91 @@
       ]
     },
     {
-      "seed_repo": "Au1rxx/free-vpn-subscriptions",
+      "seed_repo": "rtwo2/FastNodes",
       "ref": "main",
       "tree_truncated": false,
       "candidate_file_count": 120,
-      "accepted_source_count": 58,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0002.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0003.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0004.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0005.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0006.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0007.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0008.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0009.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0010.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0011.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0012.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0013.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0014.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-AT.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-AU.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-CA.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-CH.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-DE.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-EE.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-ES.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-FR.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-GB.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-HK.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-IE.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-IN.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-JP.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-KR.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-MY.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-NL.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-PL.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-RO.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-SG.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-TW.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-US.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-VN.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-IN.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-VN.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AE/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AE/v2ray-base64-0001.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AL/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AM/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AM/v2ray-base64-0001.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AT/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AU/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AZ/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AZ/v2ray-base64-0001.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/BE/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/BG/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/BR/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/BY/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/BY/v2ray-base64-0001.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/CA/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/CH/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/CN/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/CN/v2ray-base64-0001.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/CO/clash-0001.yaml"
-      ],
-      "sample_rejections": [
-        {
-          "path": "AGENTS.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "CODE_OF_CONDUCT.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "CONTRIBUTING.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README_CN.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README_ES.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README_JA.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README_KO.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README_PT.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README_RU.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "SECURITY.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/robots.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "output/all-verified/v2ray-base64-0001.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "output/all-verified/v2ray-base64-0002.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "output/all-verified/v2ray-base64-0003.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "output/all-verified/v2ray-base64-0004.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "output/all-verified/v2ray-base64-0005.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "output/all-verified/v2ray-base64-0006.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "output/all-verified/v2ray-base64-0007.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "output/all-verified/v2ray-base64-0008.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "randyap8-wq/Micro-Expert-Router-SSD-Streamed-MoE-MER",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 14,
       "accepted_source_count": 0,
       "accepted_sources": [],
       "sample_rejections": [
         {
+          "path": "ProxyCollector/bogons.txt",
+          "reason": "content_not_matching"
+        },
+        {
           "path": "README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "deploy/helm/mer/Chart.yaml",
+          "path": "sub/continents/Africa.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "deploy/helm/mer/templates/all.yaml",
+          "path": "sub/continents/Africa_part2.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "deploy/helm/mer/values.yaml",
+          "path": "sub/continents/Africa_part3.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "docker-compose.yml",
+          "path": "sub/continents/Africa_part4.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/audit-findings.md",
+          "path": "sub/continents/Antarctica.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/benchmarks/mixtral-8x7b-cpu-cache-scaling-2026-06-25.md",
+          "path": "sub/continents/Asia.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/benchmarks/mixtral-8x7b-cpu-cache-scaling-2026-06-27.md",
+          "path": "sub/continents/Asia_part10.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/benchmarks/mixtral-8x7b-rayon-autotune-2026-07.md",
+          "path": "sub/continents/Asia_part11.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/benchmarks/qwen3-coder-30b-a3b-cpu-production-sprint-2026-06-30.md",
+          "path": "sub/continents/Asia_part12.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/benchmarks/qwen3-coder-30b-a3b-pr6-q4-parity-2026-08-11.md",
+          "path": "sub/continents/Asia_part13.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/benchmarks/qwen3-coder-30b-a3b-q8-cpu-2026-07-11.md",
+          "path": "sub/continents/Asia_part14.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/distributed.md",
+          "path": "sub/continents/Asia_part15.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/production.md",
+          "path": "sub/continents/Asia_part16.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/continents/Asia_part17.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/continents/Asia_part18.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/continents/Asia_part19.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/continents/Asia_part2.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/continents/Asia_part20.txt",
           "reason": "content_not_matching"
         }
       ]
