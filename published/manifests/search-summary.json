@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-16T07:07:11.365481+00:00",
+  "updated_at": "2026-10-17T06:54:35.414747+00:00",
   "queries_file": "config/search_queries.yaml",
-  "discovered_repo_count": 7,
+  "discovered_repo_count": 12,
   "discovered_source_count": 0,
   "output_repo_file": "published/manifests/search-discovered-repos.txt",
   "output_source_file": "published/manifests/search-discovered-source-urls.txt",
@@ -9,112 +9,136 @@
     {
       "query": "clash mihomo subscription in:name,description,readme stars:>10",
       "total_count": 246,
-      "accepted_count": 5,
+      "accepted_count": 4,
       "accepted_repos": [
         {
-          "full_name": "igareck/vpn-configs-for-russia",
+          "full_name": "nicobailon/pi-web-access",
           "default_branch": "main",
-          "html_url": "https://github.com/igareck/vpn-configs-for-russia",
-          "stargazers_count": 9220
-        },
-        {
-          "full_name": "0xRadikal/Free-v2ray-Configs",
-          "default_branch": "main",
-          "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
-          "stargazers_count": 733
+          "html_url": "https://github.com/nicobailon/pi-web-access",
+          "stargazers_count": 1643
         },
         {
           "full_name": "Aa728848/dsh-chatgpt-subscription",
           "default_branch": "master",
           "html_url": "https://github.com/Aa728848/dsh-chatgpt-subscription",
-          "stargazers_count": 56
+          "stargazers_count": 58
         },
         {
-          "full_name": "Au1rxx/free-vpn-subscriptions",
+          "full_name": "0xRadikal/Free-v2ray-Configs",
           "default_branch": "main",
-          "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
-          "stargazers_count": 977
+          "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
+          "stargazers_count": 736
         },
         {
-          "full_name": "sunmiao4458/free-proxy-airport",
+          "full_name": "zhuhaiuk/free-nodes",
           "default_branch": "main",
-          "html_url": "https://github.com/sunmiao4458/free-proxy-airport",
-          "stargazers_count": 502
+          "html_url": "https://github.com/zhuhaiuk/free-nodes",
+          "stargazers_count": 344
         }
       ]
     },
     {
       "query": "v2ray subscribe clash in:name,description,readme stars:>10",
       "total_count": 103,
-      "accepted_count": 5,
+      "accepted_count": 7,
       "accepted_repos": [
-        {
-          "full_name": "igareck/vpn-configs-for-russia",
-          "default_branch": "main",
-          "html_url": "https://github.com/igareck/vpn-configs-for-russia",
-          "stargazers_count": 9220
-        },
         {
           "full_name": "0xRadikal/Free-v2ray-Configs",
           "default_branch": "main",
           "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
-          "stargazers_count": 733
+          "stargazers_count": 736
         },
         {
           "full_name": "Au1rxx/free-vpn-subscriptions",
           "default_branch": "main",
           "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
-          "stargazers_count": 977
+          "stargazers_count": 984
         },
         {
           "full_name": "OpenNetCN/clash",
           "default_branch": "main",
           "html_url": "https://github.com/OpenNetCN/clash",
-          "stargazers_count": 621
+          "stargazers_count": 623
+        },
+        {
+          "full_name": "zhulinghuanyu/Subscribe",
+          "default_branch": "main",
+          "html_url": "https://github.com/zhulinghuanyu/Subscribe",
+          "stargazers_count": 11
         },
         {
           "full_name": "rtwo2/FastNodes",
           "default_branch": "main",
           "html_url": "https://github.com/rtwo2/FastNodes",
           "stargazers_count": 96
+        },
+        {
+          "full_name": "igareck/vpn-configs-for-russia",
+          "default_branch": "main",
+          "html_url": "https://github.com/igareck/vpn-configs-for-russia",
+          "stargazers_count": 9230
+        },
+        {
+          "full_name": "NiREvil/vless",
+          "default_branch": "main",
+          "html_url": "https://github.com/NiREvil/vless",
+          "stargazers_count": 1346
         }
       ]
     },
     {
       "query": "proxy pool clash in:name,description,readme stars:>5",
-      "total_count": 382,
-      "accepted_count": 2,
+      "total_count": 391,
+      "accepted_count": 3,
       "accepted_repos": [
         {
-          "full_name": "igareck/vpn-configs-for-russia",
+          "full_name": "nicobailon/pi-web-access",
           "default_branch": "main",
-          "html_url": "https://github.com/igareck/vpn-configs-for-russia",
-          "stargazers_count": 9220
+          "html_url": "https://github.com/nicobailon/pi-web-access",
+          "stargazers_count": 1643
+        },
+        {
+          "full_name": "vpnsvpns/Prihs",
+          "default_branch": "main",
+          "html_url": "https://github.com/vpnsvpns/Prihs",
+          "stargazers_count": 67
         },
         {
           "full_name": "0xRadikal/Free-v2ray-Configs",
           "default_branch": "main",
           "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
-          "stargazers_count": 733
+          "stargazers_count": 736
         }
       ]
     },
     {
       "query": "mihomo nodes share in:name,description,readme stars:>5",
-      "total_count": 197,
-      "accepted_count": 2,
+      "total_count": 196,
+      "accepted_count": 4,
       "accepted_repos": [
+        {
+          "full_name": "nicobailon/pi-web-access",
+          "default_branch": "main",
+          "html_url": "https://github.com/nicobailon/pi-web-access",
+          "stargazers_count": 1643
+        },
         {
           "full_name": "Aa728848/dsh-chatgpt-subscription",
           "default_branch": "master",
           "html_url": "https://github.com/Aa728848/dsh-chatgpt-subscription",
-          "stargazers_count": 56
+          "stargazers_count": 58
         },
         {
           "full_name": "Au1rxx/free-vpn-subscriptions",
           "default_branch": "main",
           "html_url": "https://github.com/Au1rxx/free-vpn-subscriptions",
-          "stargazers_count": 977
+          "stargazers_count": 984
+        },
+        {
+          "full_name": "junjun266/FreeProxyGo",
+          "default_branch": "main",
+          "html_url": "https://github.com/junjun266/FreeProxyGo",
+          "stargazers_count": 164
         }
       ]
     }
