@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-27T07:52:05.553230+00:00",
+  "updated_at": "2026-10-28T08:30:01.815450+00:00",
   "seed_repo_files": [
     "config/github_seed_repos.txt",
     "published/manifests/search-discovered-repos.txt"
   ],
   "patterns_file": "config/discovery_patterns.yaml",
-  "discovered_source_count": 373,
+  "discovered_source_count": 394,
   "discovered_sources_file": "published/manifests/discovered-source-urls.txt",
   "repos": [
     {
@@ -634,224 +634,11 @@
       ]
     },
     {
-      "seed_repo": "0xRadikal/Free-v2ray-Configs",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 118,
-      "accepted_source_count": 9,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/clash.yaml",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/archive/all_broken_base64.txt",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/archive/heavy_broken_base64.txt",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/archive/light_broken_base64.txt",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/fast/clash.yaml",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/heavy/clash.yaml",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/light/clash.yaml",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/secure/clash.yaml",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/clash.yaml"
-      ],
-      "sample_rejections": [
-        {
-          "path": "ACCESSIBILITY.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "CODE_OF_CONDUCT.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "CONTRIBUTING.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Armenia.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Australia.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Austria.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Azerbaijan.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Belarus.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Bulgaria.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Canada.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/China.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Costa_Rica.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Czechia.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Denmark.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Estonia.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Finland.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/France.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Germany.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Greece.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Hong_Kong.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "igareck/vpn-configs-for-russia",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 49,
-      "accepted_source_count": 22,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/BLACK_VLESS_RUS_base64.txt",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/Vless-Reality-White-Lists-Rus-Mobile-base64.txt",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/WHITE-CIDR-RU-all-base64.txt",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/WHITE-CIDR-RU-checked-base64.txt",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/WHITE-SNI-RU-all-base64.txt",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/BLACK_SS%2BAll_RUS_clash_global.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/BLACK_VLESS_RUS_clash_global.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/BLACK_VLESS_RUS_mobile_clash_global.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/Vless-Reality-White-Lists-Rus-Mobile-clash-global.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-CIDR-RU-all-clash-global.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-CIDR-RU-checked-clash-global.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-SNI-RU-all-clash-global.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/PROXIES_ONLY/BLACK_SS%2BAll_RUS_clash_proxies.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/PROXIES_ONLY/BLACK_VLESS_RUS_clash_proxies.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/PROXIES_ONLY/BLACK_VLESS_RUS_mobile_clash_proxies.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/PROXIES_ONLY/Vless-Reality-White-Lists-Rus-Mobile-clash-proxies.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/PROXIES_ONLY/WHITE-CIDR-RU-all-clash-proxies.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/PROXIES_ONLY/WHITE-CIDR-RU-checked-clash-proxies.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/PROXIES_ONLY/WHITE-SNI-RU-all-clash-proxies.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/RU_DIRECT/BLACK_SS%2BAll_RUS_clash_rudirect.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/RU_DIRECT/BLACK_VLESS_RUS_clash_rudirect.yaml",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/RU_DIRECT/BLACK_VLESS_RUS_mobile_clash_rudirect.yaml"
-      ],
-      "sample_rejections": [
-        {
-          "path": "BLACK_SS+All_RUS.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "BLACK_SS_WEAK_DPI_RUS.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "BLACK_VLESS_RUS.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "BLACK_VLESS_RUS_mobile.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Export/Base64/PROXIES_ONLY/BLACK_SS+All_RUS_base64.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Export/Base64/PROXIES_ONLY/BLACK_VLESS_RUS_mobile_base64.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Export/v2rayN_PC/BLACK_SS+All_RUS_v2rayN.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Export/v2rayN_PC/BLACK_VLESS_RUS_mobile_v2rayN.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Export/v2rayN_PC/BLACK_VLESS_RUS_v2rayN.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Export/v2rayN_PC/WHITE-CIDR-RU-all-v2rayN.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Export/v2rayN_PC/WHITE-CIDR-RU-checked-v2rayN.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "MIRRORS.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README-EN-US.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README-FA-IR.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README-ZH-CN.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "TOR-BRIDGES/TOR_BRIDGES_ALL.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "TOR-BRIDGES/TOR_BRIDGES_OBFS4.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
       "seed_repo": "Au1rxx/free-vpn-subscriptions",
       "ref": "main",
       "tree_truncated": false,
       "candidate_file_count": 120,
-      "accepted_source_count": 75,
+      "accepted_source_count": 78,
       "accepted_sources": [
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0001.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0002.yaml",
@@ -861,73 +648,76 @@
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0006.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0007.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-AE.yaml",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-AL.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-AT.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-AU.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-BG.yaml",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-BR.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-BY.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-CA.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-CH.yaml",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-CZ.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-DE.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-DK.yaml",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-EE.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-ES.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-FI.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-FR.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-GB.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-HK.yaml",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-ID.yaml",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-IE.yaml",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-IL.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-IN.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-IT.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-JP.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-KR.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-LV.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-MK.yaml",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-MD.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-MX.yaml",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-MY.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-NL.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-NO.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-PH.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-PL.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-RO.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-RU.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-SE.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-SG.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-SI.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-TH.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-TR.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-TW.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-US.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-VN.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-ZA.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-AE.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-AT.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-AU.txt",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-BR.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-BY.txt",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-CZ.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-DK.txt",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-EE.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-ES.txt",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-ID.txt",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-IE.txt",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-IL.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-IN.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-LV.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-MK.txt",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-MD.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-MX.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-PH.txt",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-MY.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-RO.txt",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-RU.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-SE.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-SI.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-TH.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-TR.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/v2ray-base64-VN.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AE/clash-0001.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AE/v2ray-base64-0001.txt",
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AL/clash-0001.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AM/clash-0001.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AM/v2ray-base64-0001.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AT/clash-0001.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AU/clash-0001.yaml",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AU/v2ray-base64-0001.txt",
         "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AZ/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AZ/v2ray-base64-0001.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/BE/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/BE/v2ray-base64-0001.txt",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/BG/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/BR/clash-0001.yaml",
-        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/BR/v2ray-base64-0001.txt"
+        "https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AZ/v2ray-base64-0001.txt"
       ],
       "sample_rejections": [
         {
@@ -1013,6 +803,495 @@
       ]
     },
     {
+      "seed_repo": "0xRadikal/Free-v2ray-Configs",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 112,
+      "accepted_source_count": 8,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/clash.yaml",
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/archive/all_broken_base64.txt",
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/archive/heavy_broken_base64.txt",
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/fast/clash.yaml",
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/heavy/clash.yaml",
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/light/clash.yaml",
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/secure/clash.yaml",
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/clash.yaml"
+      ],
+      "sample_rejections": [
+        {
+          "path": "ACCESSIBILITY.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "CODE_OF_CONDUCT.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Albania.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Armenia.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Australia.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Belarus.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Brazil.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Bulgaria.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Canada.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Chile.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Czechia.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Denmark.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Estonia.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Finland.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/France.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Germany.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Greece.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Hong_Kong.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Hungary.txt",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "mateo-ki/vpn-parser",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 21,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": "README.en.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "RELEASE_NOTES.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "design.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/openwrt.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/superpowers/plans/2026-07-27-kernel-management-foundation.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/superpowers/plans/2026-07-27-mihomo-lifecycle.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/superpowers/plans/2026-07-27-mihomo-singbox-runtime.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/superpowers/plans/2026-07-27-proxy-control-console-ui.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/superpowers/plans/2026-07-27-proxy-runtime-foundation.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/superpowers/plans/2026-07-27-recommended-routing-rules.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/superpowers/plans/2026-07-27-speedtest-source-stats-foundation.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/superpowers/plans/2026-07-27-system-proxy.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/superpowers/plans/2026-07-27-tun-routing-dns.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/superpowers/specs/2026-07-27-mihomo-singbox-runtime-design.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/superpowers/specs/2026-07-27-proxy-control-console-design.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/superpowers/specs/2026-07-27-recommended-routing-rules-design.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/superpowers/specs/2026-07-27-source-availability-statistics-design.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/superpowers/specs/2026-07-27-speedtest-kernel-consistency-design.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "requirements.md",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "libnyanpasu/clash-nyanpasu",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 120,
+      "accepted_source_count": 6,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/libnyanpasu/clash-nyanpasu/main/backend/nyanpasu-config/src/runtime/executor/tests/fixtures/parity_merged_expected.yaml",
+        "https://raw.githubusercontent.com/libnyanpasu/clash-nyanpasu/main/backend/nyanpasu-config/src/runtime/executor/tests/fixtures/parity_single_expected.yaml",
+        "https://raw.githubusercontent.com/libnyanpasu/clash-nyanpasu/main/backend/nyanpasu-config/src/runtime/executor/tests/fixtures/sub_a.yaml",
+        "https://raw.githubusercontent.com/libnyanpasu/clash-nyanpasu/main/backend/nyanpasu-config/src/runtime/executor/tests/fixtures/sub_b.yaml",
+        "https://raw.githubusercontent.com/libnyanpasu/clash-nyanpasu/main/backend/tauri/src/enhance/fixtures/golden/composition_global_chain.yaml",
+        "https://raw.githubusercontent.com/libnyanpasu/clash-nyanpasu/main/backend/tauri/tests/sample_clash_config.yaml"
+      ],
+      "sample_rejections": [
+        {
+          "path": ".serena/project.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "AGENTS.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "CLAUDE.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "CODE_OF_CONDUCT.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "CODE_OF_CONDUCT_zh.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "UPDATELOG.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "backend/fake-core/DESIGN.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "backend/fake-core/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "backend/nyanpasu-config/src/runtime/executor/tests/fixtures/build_groups.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "backend/nyanpasu-config/src/runtime/executor/tests/fixtures/global_fix.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "backend/nyanpasu-config/src/runtime/executor/tests/fixtures/parity_bare_expected.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "backend/nyanpasu-crash-reporter/DESIGN.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "backend/nyanpasu-crash-reporter/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "backend/nyanpasu-crash-reporter/tests/fonts/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "backend/nyanpasu-diagnose/DESIGN.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "backend/nyanpasu-diagnose/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "backend/nyanpasu-geodata/DESIGN.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "backend/nyanpasu-geodata/README.md",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "igareck/vpn-configs-for-russia",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 49,
+      "accepted_source_count": 22,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/BLACK_VLESS_RUS_base64.txt",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/BLACK_VLESS_RUS_mobile_base64.txt",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/Vless-Reality-White-Lists-Rus-Mobile-base64.txt",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/WHITE-CIDR-RU-all-base64.txt",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/WHITE-CIDR-RU-checked-base64.txt",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/BLACK_SS%2BAll_RUS_clash_global.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/BLACK_VLESS_RUS_clash_global.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/BLACK_VLESS_RUS_mobile_clash_global.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/Vless-Reality-White-Lists-Rus-Mobile-clash-global.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-CIDR-RU-all-clash-global.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-CIDR-RU-checked-clash-global.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/WHITE-SNI-RU-all-clash-global.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/PROXIES_ONLY/BLACK_SS%2BAll_RUS_clash_proxies.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/PROXIES_ONLY/BLACK_VLESS_RUS_clash_proxies.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/PROXIES_ONLY/BLACK_VLESS_RUS_mobile_clash_proxies.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/PROXIES_ONLY/Vless-Reality-White-Lists-Rus-Mobile-clash-proxies.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/PROXIES_ONLY/WHITE-CIDR-RU-all-clash-proxies.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/PROXIES_ONLY/WHITE-CIDR-RU-checked-clash-proxies.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/PROXIES_ONLY/WHITE-SNI-RU-all-clash-proxies.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/RU_DIRECT/BLACK_SS%2BAll_RUS_clash_rudirect.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/RU_DIRECT/BLACK_VLESS_RUS_clash_rudirect.yaml",
+        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/RU_DIRECT/BLACK_VLESS_RUS_mobile_clash_rudirect.yaml"
+      ],
+      "sample_rejections": [
+        {
+          "path": "BLACK_SS+All_RUS.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "BLACK_SS_WEAK_DPI_RUS.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "BLACK_VLESS_RUS.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "BLACK_VLESS_RUS_mobile.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Export/Base64/PROXIES_ONLY/BLACK_SS+All_RUS_base64.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Export/Base64/PROXIES_ONLY/WHITE-SNI-RU-all-base64.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Export/v2rayN_PC/BLACK_SS+All_RUS_v2rayN.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Export/v2rayN_PC/BLACK_VLESS_RUS_mobile_v2rayN.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Export/v2rayN_PC/BLACK_VLESS_RUS_v2rayN.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Export/v2rayN_PC/Vless-Reality-White-Lists-Rus-Mobile-v2rayN.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Export/v2rayN_PC/WHITE-CIDR-RU-all-v2rayN.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Export/v2rayN_PC/WHITE-CIDR-RU-checked-v2rayN.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Export/v2rayN_PC/WHITE-SNI-RU-all-v2rayN.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "MIRRORS.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README-EN-US.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README-FA-IR.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README-ZH-CN.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "TOR-BRIDGES/TOR_BRIDGES_ALL.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "TOR-BRIDGES/TOR_BRIDGES_OBFS4.txt",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "Water-Run/ClashSharp",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 120,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": "ClashSharp/ClashSharp/Binaries/mihomo-NOTICE.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "ClashSharp/Installer/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "ClashSharp/Installer/ReleaseREADME.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "ClashSharp/Installer/Schemas/CycloneDX-1.6/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "ClashSharp/Installer/SourceMaterials/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "ClashSharp/Installer/ThirdParty/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "ClashSharp/Installer/ThirdParty/dotnet-ai-notices.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "ClashSharp/Installer/ThirdParty/geodata-generation.yml.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "ClashSharp/Installer/ThirdParty/geodata-readme.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "ClashSharp/Installer/ThirdParty/mcp-sdk-notices.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "ClashSharp/SandboxTest/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "CodingStyle.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README-fa.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README-ko.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README-ru.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README-zh-Hant.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README-zh.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/architecture/evidence/2026-07-28-mid-refactor-stabilization-review.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/architecture/evidence/phase-01-repository-foundation.md",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
       "seed_repo": "OpenNetCN/clash",
       "ref": "main",
       "tree_truncated": false,
@@ -1031,95 +1310,110 @@
       ]
     },
     {
-      "seed_repo": "mahdibland/V2RayAggregator",
-      "ref": "master",
+      "seed_repo": "LeilaoMi/AutoMergePublicNodes-Optimized",
+      "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 120,
-      "accepted_source_count": 3,
+      "candidate_file_count": 68,
+      "accepted_source_count": 18,
       "accepted_sources": [
-        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity.yml",
-        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/airport_merge_base64.txt",
-        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml"
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_protocol/global_trojan.txt",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_protocol/global_vless.txt",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_protocol/verified_trojan.txt",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_protocol/verified_vless.txt",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E5%8F%B0%E6%B9%BE.txt",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E5%9C%9F%E8%80%B3%E5%85%B6.txt",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E5%A2%A8%E8%A5%BF%E5%93%A5.txt",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E5%B7%B4%E8%A5%BF.txt",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E6%96%B0%E5%8A%A0%E5%9D%A1.txt",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E7%91%9E%E5%85%B8.txt",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E8%8A%AC%E5%85%B0.txt",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E8%A5%BF%E7%8F%AD%E7%89%99.txt",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E9%98%BF%E8%81%94%E9%85%8B.txt",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E9%9F%A9%E5%9B%BD.txt",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E9%A6%99%E6%B8%AF.txt",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/global.yaml",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/verified.yaml",
+        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/tests/fixtures/protocols/clash.yaml"
       ],
       "sample_rejections": [
-        {
-          "path": "Eternity.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "EternityAir.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "EternityAir.yml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "LogInfo.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "LogInfoAir.txt",
-          "reason": "content_not_matching"
-        },
         {
           "path": "README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "sub/airport_merge_yaml.yml",
+          "path": "SECURITY.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "sub/airport_sub_merge.txt",
+          "path": "config/filter_rules.yaml",
           "reason": "content_not_matching"
         },
         {
-          "path": "sub/list/00.txt",
+          "path": "config/scoring.low_latency.yaml",
           "reason": "content_not_matching"
         },
         {
-          "path": "sub/list/12.txt",
+          "path": "config/scoring.source_quality.yaml",
           "reason": "content_not_matching"
         },
         {
-          "path": "sub/list/13.txt",
+          "path": "config/scoring.stability.yaml",
           "reason": "content_not_matching"
         },
         {
-          "path": "sub/list/14.txt",
+          "path": "config/scoring.yaml",
           "reason": "content_not_matching"
         },
         {
-          "path": "sub/list/15.txt",
+          "path": "config/sources.yaml",
           "reason": "content_not_matching"
         },
         {
-          "path": "sub/list/17.txt",
+          "path": "docs/client-guide.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "sub/list/18.txt",
+          "path": "docs/releases/2.3.0.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "sub/list/20.txt",
+          "path": "docs/releases/2.4.0.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "sub/list/24.txt",
+          "path": "docs/releases/README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "sub/list/27.txt",
+          "path": "docs/resources.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "sub/list/32.txt",
+          "path": "output/by_protocol/global_http.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "sub/list/36.txt",
+          "path": "output/by_protocol/global_hysteria2.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "output/by_protocol/global_shadowsocks.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "output/by_protocol/verified_http.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "output/by_protocol/verified_shadowsocks.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "output/by_region/乌克兰.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "output/by_region/其他.txt",
           "reason": "content_not_matching"
         }
       ]
@@ -1220,6 +1514,100 @@
       ]
     },
     {
+      "seed_repo": "mahdibland/V2RayAggregator",
+      "ref": "master",
+      "tree_truncated": false,
+      "candidate_file_count": 120,
+      "accepted_source_count": 3,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity.yml",
+        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/airport_merge_base64.txt",
+        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml"
+      ],
+      "sample_rejections": [
+        {
+          "path": "Eternity.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "EternityAir.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "EternityAir.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "LogInfo.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "LogInfoAir.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/airport_merge_yaml.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/airport_sub_merge.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/list/00.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/list/12.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/list/13.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/list/14.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/list/15.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/list/17.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/list/18.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/list/20.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/list/24.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/list/27.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/list/32.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "sub/list/36.txt",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
       "seed_repo": "yy1588133/proxy-pool",
       "ref": "main",
       "tree_truncated": false,
@@ -1294,135 +1682,91 @@
       ]
     },
     {
-      "seed_repo": "vpnsvpns/Prihs",
+      "seed_repo": "roman-png/VPNpool",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 12,
-      "accepted_source_count": 5,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/vpnsvpns/Prihs/main/Prih.yaml",
-        "https://raw.githubusercontent.com/vpnsvpns/Prihs/main/Prih3.yaml",
-        "https://raw.githubusercontent.com/vpnsvpns/Prihs/main/Prihs2.yaml",
-        "https://raw.githubusercontent.com/vpnsvpns/Prihs/main/mifa.yaml",
-        "https://raw.githubusercontent.com/vpnsvpns/Prihs/main/prih.yaml"
-      ],
-      "sample_rejections": [
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "iptv.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "src/README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "src/zapret/list-general-user.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "vk.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "xiaomi_ax3000t_1.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "zapret.md",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "Aa728848/dsh-chatgpt-subscription",
-      "ref": "master",
-      "tree_truncated": false,
-      "candidate_file_count": 64,
+      "candidate_file_count": 66,
       "accepted_source_count": 0,
       "accepted_sources": [],
       "sample_rejections": [
         {
-          "path": ".dsh/skills/add-subscription-line/SKILL.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": ".dsh/skills/dsh-harness-upgrade/SKILL.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": ".dsh/skills/dsh-harness-upgrade/references/0.1.7-alpha.1.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": ".dsh/skills/dsh-harness-upgrade/references/0.1.7-rc.1.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": ".dsh/skills/dsh-harness-upgrade/references/0.1.7-rc.2.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": ".dsh/skills/dsh-harness-upgrade/references/0.2.0-rc.1.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": ".dsh/skills/dsh-harness-upgrade/references/0.2.0-rc.2.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": ".dsh/skills/dsh-harness-upgrade/references/0.2.1-alpha.5.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": ".dsh/skills/dsh-harness-upgrade/references/0.2.1-rc.2.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": ".dsh/skills/dsh-harness-upgrade/references/0.2.1-rc.3.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": ".dsh/skills/dsh-harness-upgrade/references/_template.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": ".dsh/skills/dsh-harness-upgrade/references/codex-wire-surface.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": ".dsh/skills/dsh-harness-upgrade/references/output-reservation.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": ".dsh/skills/dsh-harness-upgrade/references/provider-protocol-review.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": ".dsh/skills/release-plugin/SKILL.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "AGENTS.md",
-          "reason": "content_not_matching"
-        },
-        {
           "path": "README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "cordis.patch.yml",
+          "path": "README.ru.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/antigravity-claude-cache-audit.md",
+          "path": "stand/USAGE.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/cline-pass-line-plan.md",
+          "path": "stand/docker-compose.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/api_config_version_only.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/api_key.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/api_key_no_version.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/awg2_amnezia5.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/awg2_caption_wrapped.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/awg2_trailing_word.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/awg2_uncompressed_wrapped.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/awg_endpoint_colon.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/bad_adler.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/bad_length_prefix.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/blocks_100_valid.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/blocks_5000_valid.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/bomb_declared_4mb.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/default_unsupported_falls_back.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/default_xray_wins.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "stand/tests/fixtures/awg/dec/full_access.txt",
           "reason": "content_not_matching"
         }
       ]
