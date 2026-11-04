@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-03T09:29:30.332799+00:00",
+  "updated_at": "2026-11-04T09:07:32.178916+00:00",
   "queries_file": "config/search_queries.yaml",
-  "discovered_repo_count": 9,
+  "discovered_repo_count": 11,
   "discovered_source_count": 0,
   "output_repo_file": "published/manifests/search-discovered-repos.txt",
   "output_source_file": "published/manifests/search-discovered-source-urls.txt",
@@ -9,20 +9,8 @@
     {
       "query": "clash mihomo subscription in:name,description,readme stars:>10",
       "total_count": 283,
-      "accepted_count": 7,
+      "accepted_count": 5,
       "accepted_repos": [
-        {
-          "full_name": "Water-Run/ClashSharp",
-          "default_branch": "main",
-          "html_url": "https://github.com/Water-Run/ClashSharp",
-          "stargazers_count": 15
-        },
-        {
-          "full_name": "0xRadikal/Free-Telegram-Proxy",
-          "default_branch": "main",
-          "html_url": "https://github.com/0xRadikal/Free-Telegram-Proxy",
-          "stargazers_count": 53
-        },
         {
           "full_name": "Aa728848/dsh-chatgpt-subscription",
           "default_branch": "master",
@@ -30,97 +18,115 @@
           "stargazers_count": 83
         },
         {
-          "full_name": "igareck/vpn-configs-for-russia",
-          "default_branch": "main",
-          "html_url": "https://github.com/igareck/vpn-configs-for-russia",
-          "stargazers_count": 9421
-        },
-        {
-          "full_name": "Aliazadi-1776/WProxy-v2ray",
-          "default_branch": "main",
-          "html_url": "https://github.com/Aliazadi-1776/WProxy-v2ray",
-          "stargazers_count": 27
-        },
-        {
           "full_name": "0xRadikal/Free-v2ray-Configs",
           "default_branch": "main",
           "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
-          "stargazers_count": 785
+          "stargazers_count": 789
         },
         {
-          "full_name": "libnyanpasu/clash-nyanpasu",
+          "full_name": "0xRadikal/Free-Telegram-Proxy",
           "default_branch": "main",
-          "html_url": "https://github.com/libnyanpasu/clash-nyanpasu",
-          "stargazers_count": 13280
+          "html_url": "https://github.com/0xRadikal/Free-Telegram-Proxy",
+          "stargazers_count": 124
+        },
+        {
+          "full_name": "Water-Run/ClashSharp",
+          "default_branch": "main",
+          "html_url": "https://github.com/Water-Run/ClashSharp",
+          "stargazers_count": 15
+        },
+        {
+          "full_name": "igareck/vpn-configs-for-russia",
+          "default_branch": "main",
+          "html_url": "https://github.com/igareck/vpn-configs-for-russia",
+          "stargazers_count": 9427
         }
       ]
     },
     {
       "query": "v2ray subscribe clash in:name,description,readme stars:>10",
       "total_count": 103,
-      "accepted_count": 4,
+      "accepted_count": 6,
       "accepted_repos": [
-        {
-          "full_name": "igareck/vpn-configs-for-russia",
-          "default_branch": "main",
-          "html_url": "https://github.com/igareck/vpn-configs-for-russia",
-          "stargazers_count": 9421
-        },
         {
           "full_name": "0xRadikal/Free-v2ray-Configs",
           "default_branch": "main",
           "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
-          "stargazers_count": 785
+          "stargazers_count": 789
+        },
+        {
+          "full_name": "igareck/vpn-configs-for-russia",
+          "default_branch": "main",
+          "html_url": "https://github.com/igareck/vpn-configs-for-russia",
+          "stargazers_count": 9427
         },
         {
           "full_name": "OpenNetCN/clash",
           "default_branch": "main",
           "html_url": "https://github.com/OpenNetCN/clash",
-          "stargazers_count": 644
+          "stargazers_count": 645
+        },
+        {
+          "full_name": "zhulinghuanyu/Subscribe",
+          "default_branch": "main",
+          "html_url": "https://github.com/zhulinghuanyu/Subscribe",
+          "stargazers_count": 14
+        },
+        {
+          "full_name": "yy1588133/proxy-pool",
+          "default_branch": "main",
+          "html_url": "https://github.com/yy1588133/proxy-pool",
+          "stargazers_count": 45
         },
         {
           "full_name": "mahdibland/V2RayAggregator",
           "default_branch": "master",
           "html_url": "https://github.com/mahdibland/V2RayAggregator",
-          "stargazers_count": 4024
+          "stargazers_count": 4025
         }
       ]
     },
     {
       "query": "proxy pool clash in:name,description,readme stars:>5",
-      "total_count": 412,
-      "accepted_count": 3,
+      "total_count": 413,
+      "accepted_count": 4,
       "accepted_repos": [
+        {
+          "full_name": "0xRadikal/Free-v2ray-Configs",
+          "default_branch": "main",
+          "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
+          "stargazers_count": 789
+        },
         {
           "full_name": "0xRadikal/Free-Telegram-Proxy",
           "default_branch": "main",
           "html_url": "https://github.com/0xRadikal/Free-Telegram-Proxy",
-          "stargazers_count": 53
+          "stargazers_count": 124
         },
         {
           "full_name": "igareck/vpn-configs-for-russia",
           "default_branch": "main",
           "html_url": "https://github.com/igareck/vpn-configs-for-russia",
-          "stargazers_count": 9421
+          "stargazers_count": 9427
         },
         {
-          "full_name": "0xRadikal/Free-v2ray-Configs",
+          "full_name": "vpnsvpns/Prihs",
           "default_branch": "main",
-          "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
-          "stargazers_count": 785
+          "html_url": "https://github.com/vpnsvpns/Prihs",
+          "stargazers_count": 80
         }
       ]
     },
     {
       "query": "mihomo nodes share in:name,description,readme stars:>5",
-      "total_count": 225,
+      "total_count": 226,
       "accepted_count": 1,
       "accepted_repos": [
         {
-          "full_name": "Aliazadi-1776/WProxy-v2ray",
+          "full_name": "Tokinx/sub2clash-workers",
           "default_branch": "main",
-          "html_url": "https://github.com/Aliazadi-1776/WProxy-v2ray",
-          "stargazers_count": 27
+          "html_url": "https://github.com/Tokinx/sub2clash-workers",
+          "stargazers_count": 7
         }
       ]
     }
