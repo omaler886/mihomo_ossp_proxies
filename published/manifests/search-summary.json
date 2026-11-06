@@ -1,45 +1,27 @@
 {
-  "updated_at": "2026-11-05T09:27:16.800942+00:00",
+  "updated_at": "2026-11-06T09:20:24.129192+00:00",
   "queries_file": "config/search_queries.yaml",
-  "discovered_repo_count": 12,
-  "discovered_source_count": 11,
+  "discovered_repo_count": 11,
+  "discovered_source_count": 10,
   "output_repo_file": "published/manifests/search-discovered-repos.txt",
   "output_source_file": "published/manifests/search-discovered-source-urls.txt",
   "repository_search": [
     {
       "query": "clash mihomo subscription in:name,description,readme stars:>10",
-      "total_count": 287,
-      "accepted_count": 7,
+      "total_count": 295,
+      "accepted_count": 5,
       "accepted_repos": [
-        {
-          "full_name": "0xRadikal/Free-Telegram-Proxy",
-          "default_branch": "main",
-          "html_url": "https://github.com/0xRadikal/Free-Telegram-Proxy",
-          "stargazers_count": 199
-        },
         {
           "full_name": "0xRadikal/Free-v2ray-Configs",
           "default_branch": "main",
           "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
-          "stargazers_count": 796
+          "stargazers_count": 797
         },
         {
-          "full_name": "OpenNetCN/clash",
+          "full_name": "0xRadikal/Free-Telegram-Proxy",
           "default_branch": "main",
-          "html_url": "https://github.com/OpenNetCN/clash",
-          "stargazers_count": 643
-        },
-        {
-          "full_name": "mateo-ki/vproxy",
-          "default_branch": "main",
-          "html_url": "https://github.com/mateo-ki/vproxy",
-          "stargazers_count": 152
-        },
-        {
-          "full_name": "igareck/vpn-configs-for-russia",
-          "default_branch": "main",
-          "html_url": "https://github.com/igareck/vpn-configs-for-russia",
-          "stargazers_count": 9435
+          "html_url": "https://github.com/0xRadikal/Free-Telegram-Proxy",
+          "stargazers_count": 211
         },
         {
           "full_name": "XVSVTsama/XVSVT-Clash-Config",
@@ -48,47 +30,47 @@
           "stargazers_count": 20
         },
         {
-          "full_name": "KJGX66F/FreeNodePanel",
+          "full_name": "OpenNetCN/clash",
           "default_branch": "main",
-          "html_url": "https://github.com/KJGX66F/FreeNodePanel",
-          "stargazers_count": 114
+          "html_url": "https://github.com/OpenNetCN/clash",
+          "stargazers_count": 645
+        },
+        {
+          "full_name": "currycan/sb-xray",
+          "default_branch": "main",
+          "html_url": "https://github.com/currycan/sb-xray",
+          "stargazers_count": 12
         }
       ]
     },
     {
       "query": "v2ray subscribe clash in:name,description,readme stars:>10",
-      "total_count": 105,
-      "accepted_count": 7,
+      "total_count": 106,
+      "accepted_count": 6,
       "accepted_repos": [
-        {
-          "full_name": "zhulinghuanyu/Subscribe",
-          "default_branch": "main",
-          "html_url": "https://github.com/zhulinghuanyu/Subscribe",
-          "stargazers_count": 14
-        },
         {
           "full_name": "0xRadikal/Free-v2ray-Configs",
           "default_branch": "main",
           "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
-          "stargazers_count": 796
+          "stargazers_count": 797
         },
         {
           "full_name": "OpenNetCN/clash",
           "default_branch": "main",
           "html_url": "https://github.com/OpenNetCN/clash",
-          "stargazers_count": 643
+          "stargazers_count": 645
         },
         {
           "full_name": "igareck/vpn-configs-for-russia",
           "default_branch": "main",
           "html_url": "https://github.com/igareck/vpn-configs-for-russia",
-          "stargazers_count": 9435
+          "stargazers_count": 9470
         },
         {
-          "full_name": "PuddinCat/BestClash",
+          "full_name": "NiREvil/vless",
           "default_branch": "main",
-          "html_url": "https://github.com/PuddinCat/BestClash",
-          "stargazers_count": 2061
+          "html_url": "https://github.com/NiREvil/vless",
+          "stargazers_count": 1366
         },
         {
           "full_name": "yy1588133/proxy-pool",
@@ -100,53 +82,54 @@
           "full_name": "mahdibland/V2RayAggregator",
           "default_branch": "master",
           "html_url": "https://github.com/mahdibland/V2RayAggregator",
-          "stargazers_count": 4028
+          "stargazers_count": 4025
         }
       ]
     },
     {
       "query": "proxy pool clash in:name,description,readme stars:>5",
-      "total_count": 413,
-      "accepted_count": 4,
+      "total_count": 417,
+      "accepted_count": 3,
       "accepted_repos": [
-        {
-          "full_name": "0xRadikal/Free-Telegram-Proxy",
-          "default_branch": "main",
-          "html_url": "https://github.com/0xRadikal/Free-Telegram-Proxy",
-          "stargazers_count": 199
-        },
         {
           "full_name": "0xRadikal/Free-v2ray-Configs",
           "default_branch": "main",
           "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
-          "stargazers_count": 796
+          "stargazers_count": 797
         },
         {
-          "full_name": "igareck/vpn-configs-for-russia",
+          "full_name": "0xRadikal/Free-Telegram-Proxy",
           "default_branch": "main",
-          "html_url": "https://github.com/igareck/vpn-configs-for-russia",
-          "stargazers_count": 9435
+          "html_url": "https://github.com/0xRadikal/Free-Telegram-Proxy",
+          "stargazers_count": 211
         },
         {
-          "full_name": "haferbeck/terraform-proxmox-kubernetes",
+          "full_name": "TelegaVPN/free-vpn-keys",
           "default_branch": "main",
-          "html_url": "https://github.com/haferbeck/terraform-proxmox-kubernetes",
-          "stargazers_count": 8
+          "html_url": "https://github.com/TelegaVPN/free-vpn-keys",
+          "stargazers_count": 10
         }
       ]
     },
     {
       "query": "mihomo nodes share in:name,description,readme stars:>5",
-      "total_count": 231,
-      "accepted_count": 0,
-      "accepted_repos": []
+      "total_count": 232,
+      "accepted_count": 1,
+      "accepted_repos": [
+        {
+          "full_name": "guanxi660-crypto/SubPilot",
+          "default_branch": "main",
+          "html_url": "https://github.com/guanxi660-crypto/SubPilot",
+          "stargazers_count": 20
+        }
+      ]
     }
   ],
   "code_search": [
     {
       "query": "\"proxies:\" \"type: vless\" extension:yaml",
-      "total_count": 6720,
-      "accepted_count": 11,
+      "total_count": 6800,
+      "accepted_count": 10,
       "accepted_sources": [
         {
           "full_name": "changfengoss/pub",
@@ -164,7 +147,7 @@
           "full_name": "legiz-ru/mihomo-rule-sets",
           "path": "examples/example.yaml",
           "raw_url": "https://raw.githubusercontent.com/legiz-ru/mihomo-rule-sets/main/examples/example.yaml",
-          "html_url": "https://github.com/legiz-ru/mihomo-rule-sets/blob/4b29e0c745033d31850b70358f1e9aad6c5864f2/examples/example.yaml"
+          "html_url": "https://github.com/legiz-ru/mihomo-rule-sets/blob/68fa6d64624ca035815d4e0bfa4dd4ce93624b63/examples/example.yaml"
         },
         {
           "full_name": "go4sharing/sub",
@@ -197,16 +180,10 @@
           "html_url": "https://github.com/dalazhi/v2ray/blob/0361a43fa822557d2305a9ff7f0d9b5b91a23637/dalazhi1.yaml"
         },
         {
-          "full_name": "NiREvil/vless",
-          "path": "edge/assets/clash-11.yaml",
-          "raw_url": "https://raw.githubusercontent.com/NiREvil/vless/main/edge/assets/clash-11.yaml",
-          "html_url": "https://github.com/NiREvil/vless/blob/e49392d332f2790debd2b8a6878eb590aa1f1b05/edge/assets/clash-11.yaml"
-        },
-        {
           "full_name": "ASTRACAT2022/VPN-FREE-astra.net-V1",
           "path": "baseCrsah.yaml",
           "raw_url": "https://raw.githubusercontent.com/ASTRACAT2022/VPN-FREE-astra.net-V1/main/baseCrsah.yaml",
-          "html_url": "https://github.com/ASTRACAT2022/VPN-FREE-astra.net-V1/blob/418441ed49a89adb85f0770c46eeb59b660dd7d4/baseCrsah.yaml"
+          "html_url": "https://github.com/ASTRACAT2022/VPN-FREE-astra.net-V1/blob/626e7a42b69ee014eebf0ef52f3ee2c8bcf5d57f/baseCrsah.yaml"
         },
         {
           "full_name": "go4sharing/sub",
