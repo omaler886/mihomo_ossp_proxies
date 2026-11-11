@@ -1,76 +1,82 @@
 {
-  "updated_at": "2026-11-10T09:45:17.003850+00:00",
+  "updated_at": "2026-11-11T09:20:38.415218+00:00",
   "queries_file": "config/search_queries.yaml",
-  "discovered_repo_count": 11,
+  "discovered_repo_count": 9,
   "discovered_source_count": 0,
   "output_repo_file": "published/manifests/search-discovered-repos.txt",
   "output_source_file": "published/manifests/search-discovered-source-urls.txt",
   "repository_search": [
     {
       "query": "clash mihomo subscription in:name,description,readme stars:>10",
-      "total_count": 292,
-      "accepted_count": 4,
-      "accepted_repos": [
-        {
-          "full_name": "0xRadikal/Free-v2ray-Configs",
-          "default_branch": "main",
-          "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
-          "stargazers_count": 813
-        },
-        {
-          "full_name": "0xRadikal/Free-Telegram-Proxy",
-          "default_branch": "main",
-          "html_url": "https://github.com/0xRadikal/Free-Telegram-Proxy",
-          "stargazers_count": 233
-        },
-        {
-          "full_name": "sunmiao4458/free-proxy-airport",
-          "default_branch": "main",
-          "html_url": "https://github.com/sunmiao4458/free-proxy-airport",
-          "stargazers_count": 569
-        },
-        {
-          "full_name": "libnyanpasu/clash-nyanpasu",
-          "default_branch": "main",
-          "html_url": "https://github.com/libnyanpasu/clash-nyanpasu",
-          "stargazers_count": 13300
-        }
-      ]
-    },
-    {
-      "query": "v2ray subscribe clash in:name,description,readme stars:>10",
-      "total_count": 106,
+      "total_count": 294,
       "accepted_count": 6,
       "accepted_repos": [
         {
           "full_name": "0xRadikal/Free-v2ray-Configs",
           "default_branch": "main",
           "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
-          "stargazers_count": 813
+          "stargazers_count": 815
         },
         {
-          "full_name": "zhulinghuanyu/Subscribe",
+          "full_name": "0xRadikal/Free-Telegram-Proxy",
           "default_branch": "main",
-          "html_url": "https://github.com/zhulinghuanyu/Subscribe",
-          "stargazers_count": 14
+          "html_url": "https://github.com/0xRadikal/Free-Telegram-Proxy",
+          "stargazers_count": 236
         },
         {
           "full_name": "OpenNetCN/clash",
           "default_branch": "main",
           "html_url": "https://github.com/OpenNetCN/clash",
-          "stargazers_count": 650
+          "stargazers_count": 651
+        },
+        {
+          "full_name": "Aa728848/dsh-chatgpt-subscription",
+          "default_branch": "master",
+          "html_url": "https://github.com/Aa728848/dsh-chatgpt-subscription",
+          "stargazers_count": 89
         },
         {
           "full_name": "igareck/vpn-configs-for-russia",
           "default_branch": "main",
           "html_url": "https://github.com/igareck/vpn-configs-for-russia",
-          "stargazers_count": 9529
+          "stargazers_count": 9550
         },
         {
-          "full_name": "mahdibland/V2RayAggregator",
-          "default_branch": "master",
-          "html_url": "https://github.com/mahdibland/V2RayAggregator",
-          "stargazers_count": 4025
+          "full_name": "zhuhaiuk/free-nodes",
+          "default_branch": "main",
+          "html_url": "https://github.com/zhuhaiuk/free-nodes",
+          "stargazers_count": 425
+        }
+      ]
+    },
+    {
+      "query": "v2ray subscribe clash in:name,description,readme stars:>10",
+      "total_count": 106,
+      "accepted_count": 5,
+      "accepted_repos": [
+        {
+          "full_name": "0xRadikal/Free-v2ray-Configs",
+          "default_branch": "main",
+          "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
+          "stargazers_count": 815
+        },
+        {
+          "full_name": "OpenNetCN/clash",
+          "default_branch": "main",
+          "html_url": "https://github.com/OpenNetCN/clash",
+          "stargazers_count": 651
+        },
+        {
+          "full_name": "igareck/vpn-configs-for-russia",
+          "default_branch": "main",
+          "html_url": "https://github.com/igareck/vpn-configs-for-russia",
+          "stargazers_count": 9550
+        },
+        {
+          "full_name": "NiREvil/vless",
+          "default_branch": "main",
+          "html_url": "https://github.com/NiREvil/vless",
+          "stargazers_count": 1374
         },
         {
           "full_name": "yy1588133/proxy-pool",
@@ -82,47 +88,34 @@
     },
     {
       "query": "proxy pool clash in:name,description,readme stars:>5",
-      "total_count": 423,
-      "accepted_count": 4,
+      "total_count": 425,
+      "accepted_count": 3,
       "accepted_repos": [
         {
           "full_name": "0xRadikal/Free-v2ray-Configs",
           "default_branch": "main",
           "html_url": "https://github.com/0xRadikal/Free-v2ray-Configs",
-          "stargazers_count": 813
+          "stargazers_count": 815
         },
         {
           "full_name": "0xRadikal/Free-Telegram-Proxy",
           "default_branch": "main",
           "html_url": "https://github.com/0xRadikal/Free-Telegram-Proxy",
-          "stargazers_count": 233
+          "stargazers_count": 236
         },
         {
           "full_name": "TelegaVPN/free-vpn-keys",
           "default_branch": "main",
           "html_url": "https://github.com/TelegaVPN/free-vpn-keys",
           "stargazers_count": 10
-        },
-        {
-          "full_name": "igareck/vpn-configs-for-russia",
-          "default_branch": "main",
-          "html_url": "https://github.com/igareck/vpn-configs-for-russia",
-          "stargazers_count": 9529
         }
       ]
     },
     {
       "query": "mihomo nodes share in:name,description,readme stars:>5",
-      "total_count": 232,
-      "accepted_count": 1,
-      "accepted_repos": [
-        {
-          "full_name": "Richard-Zhang1019/Crossbow",
-          "default_branch": "main",
-          "html_url": "https://github.com/Richard-Zhang1019/Crossbow",
-          "stargazers_count": 208
-        }
-      ]
+      "total_count": 237,
+      "accepted_count": 0,
+      "accepted_repos": []
     }
   ],
   "code_search": [
