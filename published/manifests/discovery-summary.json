@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-18T10:08:44.947691+00:00",
+  "updated_at": "2026-11-19T10:19:21.345394+00:00",
   "seed_repo_files": [
     "config/github_seed_repos.txt",
     "published/manifests/search-discovered-repos.txt"
   ],
   "patterns_file": "config/discovery_patterns.yaml",
-  "discovered_source_count": 291,
+  "discovered_source_count": 294,
   "discovered_sources_file": "published/manifests/discovered-source-urls.txt",
   "repos": [
     {
@@ -33,7 +33,7 @@
       "ref": "master",
       "tree_truncated": false,
       "candidate_file_count": 52,
-      "accepted_source_count": 30,
+      "accepted_source_count": 28,
       "accepted_sources": [
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
@@ -50,8 +50,6 @@
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_FR.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_GB.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_GB.yml",
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_HK.meta.yml",
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_HK.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_JP.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_JP.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_KR.meta.yml",
@@ -128,6 +126,14 @@
           "reason": "content_not_matching"
         },
         {
+          "path": "snippets/nodes_HK.meta.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "snippets/nodes_HK.yml",
+          "reason": "content_not_matching"
+        },
+        {
           "path": "snippets/nodes_TW.yml",
           "reason": "content_not_matching"
         },
@@ -137,14 +143,6 @@
         },
         {
           "path": "snippets/nodes_redir.yml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "snippets/proxy.yml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "snippets/region.yml",
           "reason": "content_not_matching"
         }
       ]
@@ -453,7 +451,7 @@
       "ref": "master",
       "tree_truncated": false,
       "candidate_file_count": 53,
-      "accepted_source_count": 30,
+      "accepted_source_count": 28,
       "accepted_sources": [
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
@@ -470,8 +468,6 @@
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_FR.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_GB.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_GB.yml",
-        "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_HK.meta.yml",
-        "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_HK.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_JP.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_JP.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_KR.meta.yml",
@@ -552,19 +548,19 @@
           "reason": "content_not_matching"
         },
         {
+          "path": "snippets/nodes_HK.meta.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "snippets/nodes_HK.yml",
+          "reason": "content_not_matching"
+        },
+        {
           "path": "snippets/nodes_TW.yml",
           "reason": "content_not_matching"
         },
         {
           "path": "snippets/nodes_redir.meta.yml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "snippets/nodes_redir.yml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "snippets/proxy.yml",
           "reason": "content_not_matching"
         }
       ]
@@ -634,51 +630,21 @@
       ]
     },
     {
-      "seed_repo": "OpenNetCN/clash",
+      "seed_repo": "TelegaVPN/free-vpn-keys",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 2,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
+      "candidate_file_count": 20,
+      "accepted_source_count": 5,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/TelegaVPN/free-vpn-keys/main/sub/base64/trojan.txt",
+        "https://raw.githubusercontent.com/TelegaVPN/free-vpn-keys/main/sub/base64/vless.txt",
+        "https://raw.githubusercontent.com/TelegaVPN/free-vpn-keys/main/sub/base64/vmess.txt",
+        "https://raw.githubusercontent.com/TelegaVPN/free-vpn-keys/main/sub/clash/all.yaml",
+        "https://raw.githubusercontent.com/TelegaVPN/free-vpn-keys/main/sub/clash/for-russia.yaml"
+      ],
       "sample_rejections": [
         {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "daily-news.md",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "mehdirzfx/v2ray-sub",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 1,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "0xRadikal/Free-Telegram-Proxy",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 74,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": "ACCESSIBILITY.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "CODE_OF_CONDUCT.md",
+          "path": "API.md",
           "reason": "content_not_matching"
         },
         {
@@ -686,15 +652,11 @@
           "reason": "content_not_matching"
         },
         {
+          "path": "DISCLAIMER.md",
+          "reason": "content_not_matching"
+        },
+        {
           "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README_FA.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README_RU.md",
           "reason": "content_not_matching"
         },
         {
@@ -702,55 +664,43 @@
           "reason": "content_not_matching"
         },
         {
-          "path": "SUPPORT.md",
+          "path": "guides/happ-ne-dostupen-v-app-store-i-google-play-chto-delat.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "all/tg.txt",
+          "path": "guides/incy-ne-dostupen-v-app-store-rossiya-kak-ustanovit.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "classic/tg.txt",
+          "path": "guides/smena-regiona-app-store-kazahstan-belarus-iphone.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "classic/tme.txt",
+          "path": "guides/uxway-novoe-prilozhenie-vless-dlya-iphone-ios-obzor-i-nastrojka.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "countries/AT.txt",
+          "path": "sub/base64/all.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "countries/BG.txt",
+          "path": "sub/base64/for-russia.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "countries/CA.txt",
+          "path": "sub/base64/ru-whitelist.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "countries/CH.txt",
+          "path": "sub/v2raytun/all.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "countries/DE.txt",
+          "path": "sub/v2raytun/for-russia.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "countries/EE.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "countries/ES.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "countries/FI.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "countries/FR.txt",
+          "path": "sub/v2raytun/ru-whitelist.txt",
           "reason": "content_not_matching"
         }
       ]
@@ -760,10 +710,9 @@
       "ref": "main",
       "tree_truncated": false,
       "candidate_file_count": 49,
-      "accepted_source_count": 23,
+      "accepted_source_count": 22,
       "accepted_sources": [
         "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/BLACK_VLESS_RUS_base64.txt",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/BLACK_VLESS_RUS_mobile_base64.txt",
         "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/Vless-Reality-White-Lists-Rus-Mobile-base64.txt",
         "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/WHITE-CIDR-RU-all-base64.txt",
         "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/WHITE-CIDR-RU-checked-base64.txt",
@@ -805,6 +754,10 @@
         },
         {
           "path": "Export/Base64/PROXIES_ONLY/BLACK_SS+All_RUS_base64.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Export/Base64/PROXIES_ONLY/BLACK_VLESS_RUS_mobile_base64.txt",
           "reason": "content_not_matching"
         },
         {
@@ -862,9 +815,95 @@
         {
           "path": "TOR-BRIDGES/TOR_BRIDGES_OBFS4.txt",
           "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "0xRadikal/Free-Telegram-Proxy",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 74,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": "ACCESSIBILITY.md",
+          "reason": "content_not_matching"
         },
         {
-          "path": "TOR-BRIDGES/TOR_BRIDGES_TOP100.txt",
+          "path": "CODE_OF_CONDUCT.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README_FA.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README_RU.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "SECURITY.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "SUPPORT.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "all/tg.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "classic/tg.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "classic/tme.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "countries/AU.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "countries/BG.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "countries/CA.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "countries/CH.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "countries/DE.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "countries/EE.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "countries/ES.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "countries/FI.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "countries/FR.txt",
           "reason": "content_not_matching"
         }
       ]
@@ -967,83 +1006,10 @@
       ]
     },
     {
-      "seed_repo": "TelegaVPN/free-vpn-keys",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 20,
-      "accepted_source_count": 6,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/TelegaVPN/free-vpn-keys/main/sub/base64/for-russia.txt",
-        "https://raw.githubusercontent.com/TelegaVPN/free-vpn-keys/main/sub/base64/ru-whitelist.txt",
-        "https://raw.githubusercontent.com/TelegaVPN/free-vpn-keys/main/sub/base64/trojan.txt",
-        "https://raw.githubusercontent.com/TelegaVPN/free-vpn-keys/main/sub/base64/vless.txt",
-        "https://raw.githubusercontent.com/TelegaVPN/free-vpn-keys/main/sub/clash/all.yaml",
-        "https://raw.githubusercontent.com/TelegaVPN/free-vpn-keys/main/sub/clash/for-russia.yaml"
-      ],
-      "sample_rejections": [
-        {
-          "path": "API.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "CONTRIBUTING.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "DISCLAIMER.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "SECURITY.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "guides/happ-ne-dostupen-v-app-store-i-google-play-chto-delat.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "guides/incy-ne-dostupen-v-app-store-rossiya-kak-ustanovit.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "guides/smena-regiona-app-store-kazahstan-belarus-iphone.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "guides/uxway-novoe-prilozhenie-vless-dlya-iphone-ios-obzor-i-nastrojka.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/base64/all.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/base64/vmess.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/v2raytun/all.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/v2raytun/for-russia.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "sub/v2raytun/ru-whitelist.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
       "seed_repo": "0xRadikal/Free-v2ray-Configs",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 113,
+      "candidate_file_count": 109,
       "accepted_source_count": 9,
       "accepted_sources": [
         "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/clash.yaml",
@@ -1078,15 +1044,15 @@
           "reason": "content_not_matching"
         },
         {
-          "path": "Countries/Bahrain.txt",
-          "reason": "content_not_matching"
-        },
-        {
           "path": "Countries/Belarus.txt",
           "reason": "content_not_matching"
         },
         {
           "path": "Countries/Brazil.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Bulgaria.txt",
           "reason": "content_not_matching"
         },
         {
@@ -1134,43 +1100,202 @@
           "reason": "content_not_matching"
         },
         {
-          "path": "Countries/Hungary.txt",
+          "path": "Countries/India.txt",
           "reason": "content_not_matching"
         }
       ]
     },
     {
-      "seed_repo": "ShadowySphinX/Opencode-Unlimited-Limit-Bypass-",
+      "seed_repo": "OpenNetCN/clash",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 2,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "daily-news.md",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "NiREvil/vless",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 120,
+      "accepted_source_count": 4,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/NiREvil/vless/main/edge/assets/clash-11.yaml",
+        "https://raw.githubusercontent.com/NiREvil/vless/main/edge/assets/clash-12.yml",
+        "https://raw.githubusercontent.com/NiREvil/vless/main/sub/clash-meta-wg.yml",
+        "https://raw.githubusercontent.com/NiREvil/vless/main/sub/clash-meta.yml"
+      ],
+      "sample_rejections": [
+        {
+          "path": "DNS over HTTPS/Azadi-DNS/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "DNS over HTTPS/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "DNS over HTTPS/any DNS-over-HTTPS server you want.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "DNS over HTTPS/public-resolvers.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "ESET-CODES.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "boringtun-boringtun-cli-0.5.2/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "edge/SCAN/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "edge/assets/Cloudflare_IP_ranges_by_country.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "edge/assets/CodeBeautify.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "edge/assets/Languages.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "edge/assets/SSTime.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "edge/assets/clash-meta-wg-template.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "edge/assets/p-all.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "edge/assets/p-list-august.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "edge/assets/p-list-december.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "edge/assets/p-list-february.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "edge/assets/p-list-january.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "edge/assets/p-list-july.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "edge/assets/p-list-june.txt",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "zhulinghuanyu/Subscribe",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 5,
+      "accepted_source_count": 1,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/zhulinghuanyu/Subscribe/main/clash.yaml"
+      ],
+      "sample_rejections": [
+        {
+          "path": "README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "links.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "requirements.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "v2ray.txt",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "yy1588133/proxy-pool",
       "ref": "main",
       "tree_truncated": false,
       "candidate_file_count": 3,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
+      "accepted_source_count": 1,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/yy1588133/proxy-pool/main/clash.yaml"
+      ],
       "sample_rejections": [
         {
           "path": "README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "assets/README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "requirements.txt",
+          "path": "v2ray.txt",
           "reason": "content_not_matching"
         }
       ]
     },
     {
-      "seed_repo": "mehdirafatpanah/Shopvpn",
-      "ref": "main",
+      "seed_repo": "mahdibland/V2RayAggregator",
+      "ref": "master",
       "tree_truncated": false,
-      "candidate_file_count": 7,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
+      "candidate_file_count": 120,
+      "accepted_source_count": 3,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity.yml",
+        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/airport_merge_base64.txt",
+        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge_yaml.yml"
+      ],
       "sample_rejections": [
         {
-          "path": "README.fa.md",
+          "path": "Eternity.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "EternityAir.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "EternityAir.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "LogInfo.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "LogInfoAir.txt",
           "reason": "content_not_matching"
         },
         {
@@ -1178,113 +1303,59 @@
           "reason": "content_not_matching"
         },
         {
-          "path": "README.ru.md",
+          "path": "sub/airport_merge_yaml.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "README.zh.md",
+          "path": "sub/airport_sub_merge.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "UPDATE-NOTES-FA.md",
+          "path": "sub/list/00.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/database-manager.md",
+          "path": "sub/list/12.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "requirements.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "kevinnbass/huang-fifteen-days-mapped",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 94,
-      "accepted_source_count": 0,
-      "accepted_sources": [],
-      "sample_rejections": [
-        {
-          "path": "README.md",
+          "path": "sub/list/13.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "audit/BRIEF.md",
+          "path": "sub/list/14.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "audit/REPORT.md",
+          "path": "sub/list/15.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "audit/census.md",
+          "path": "sub/list/17.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "audit/members.md",
+          "path": "sub/list/18.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "audit2/BRIEF-a.md",
+          "path": "sub/list/20.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "audit2/BRIEF-aa.md",
+          "path": "sub/list/24.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "audit2/BRIEF-ab.md",
+          "path": "sub/list/27.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "audit2/BRIEF-ac.md",
+          "path": "sub/list/32.txt",
           "reason": "content_not_matching"
         },
         {
-          "path": "audit2/BRIEF-ad.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "audit2/BRIEF-ae.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "audit2/BRIEF-af.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "audit2/BRIEF-ag.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "audit2/BRIEF-ah.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "audit2/BRIEF-ai.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "audit2/BRIEF-aj.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "audit2/BRIEF-ak.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "audit2/BRIEF-al.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "audit2/BRIEF-am.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "audit2/BRIEF-an.md",
+          "path": "sub/list/36.txt",
           "reason": "content_not_matching"
         }
       ]
