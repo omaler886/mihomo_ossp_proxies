@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-26T10:53:15.586244+00:00",
+  "updated_at": "2026-11-27T10:53:06.601135+00:00",
   "seed_repo_files": [
     "config/github_seed_repos.txt",
     "published/manifests/search-discovered-repos.txt"
   ],
   "patterns_file": "config/discovery_patterns.yaml",
-  "discovered_source_count": 304,
+  "discovered_source_count": 296,
   "discovered_sources_file": "published/manifests/discovered-source-urls.txt",
   "repos": [
     {
@@ -33,7 +33,7 @@
       "ref": "master",
       "tree_truncated": false,
       "candidate_file_count": 52,
-      "accepted_source_count": 31,
+      "accepted_source_count": 32,
       "accepted_sources": [
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
@@ -46,6 +46,7 @@
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_CN.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_DE.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_DE.yml",
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_EE.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_FR.meta.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_FR.yml",
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/snippets/nodes_GB.meta.yml",
@@ -121,10 +122,6 @@
           "reason": "content_not_matching"
         },
         {
-          "path": "snippets/nodes_EE.meta.yml",
-          "reason": "content_not_matching"
-        },
-        {
           "path": "snippets/nodes_EE.yml",
           "reason": "content_not_matching"
         },
@@ -146,6 +143,10 @@
         },
         {
           "path": "snippets/rules.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "snippets/rules_online.yml",
           "reason": "content_not_matching"
         }
       ]
@@ -454,7 +455,7 @@
       "ref": "master",
       "tree_truncated": false,
       "candidate_file_count": 53,
-      "accepted_source_count": 31,
+      "accepted_source_count": 32,
       "accepted_sources": [
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml",
@@ -464,6 +465,7 @@
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_CA.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_CH.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_CH.yml",
+        "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_CN.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_DE.meta.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_DE.yml",
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/snippets/nodes_EE.meta.yml",
@@ -542,10 +544,6 @@
           "reason": "content_not_matching"
         },
         {
-          "path": "snippets/nodes_CN.meta.yml",
-          "reason": "content_not_matching"
-        },
-        {
           "path": "snippets/nodes_CN.yml",
           "reason": "content_not_matching"
         },
@@ -567,6 +565,10 @@
         },
         {
           "path": "snippets/region.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "snippets/rules.yml",
           "reason": "content_not_matching"
         }
       ]
@@ -639,10 +641,110 @@
       ]
     },
     {
+      "seed_repo": "0xRadikal/Free-v2ray-Configs",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 101,
+      "accepted_source_count": 9,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/clash.yaml",
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/archive/all_broken_base64.txt",
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/archive/heavy_broken_base64.txt",
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/fast/clash.yaml",
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/google/clash.yaml",
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/heavy/clash.yaml",
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/light/clash.yaml",
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/secure/clash.yaml",
+        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/clash.yaml"
+      ],
+      "sample_rejections": [
+        {
+          "path": "ACCESSIBILITY.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "CODE_OF_CONDUCT.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Australia.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Austria.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Belarus.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Brazil.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Bulgaria.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Canada.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Czechia.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Estonia.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Finland.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/France.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Germany.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Hong_Kong.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Iran.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Ireland.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Italy.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Japan.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Countries/Kazakhstan.txt",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
       "seed_repo": "0xRadikal/Free-Telegram-Proxy",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 71,
+      "candidate_file_count": 70,
       "accepted_source_count": 0,
       "accepted_sources": [],
       "sample_rejections": [
@@ -799,106 +901,6 @@
       ]
     },
     {
-      "seed_repo": "0xRadikal/Free-v2ray-Configs",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 102,
-      "accepted_source_count": 9,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/clash.yaml",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/archive/all_broken_base64.txt",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/archive/heavy_broken_base64.txt",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/fast/clash.yaml",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/google/clash.yaml",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/heavy/clash.yaml",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/light/clash.yaml",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/secure/clash.yaml",
-        "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/clash.yaml"
-      ],
-      "sample_rejections": [
-        {
-          "path": "ACCESSIBILITY.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "CODE_OF_CONDUCT.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "CONTRIBUTING.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Albania.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Australia.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Austria.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Belarus.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Brazil.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Canada.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/China.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Cyprus.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Czechia.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Estonia.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Finland.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/France.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Germany.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Hong_Kong.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Ireland.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Italy.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "Countries/Japan.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
       "seed_repo": "OpenNetCN/clash",
       "ref": "main",
       "tree_truncated": false,
@@ -921,12 +923,11 @@
       "ref": "main",
       "tree_truncated": false,
       "candidate_file_count": 49,
-      "accepted_source_count": 22,
+      "accepted_source_count": 21,
       "accepted_sources": [
         "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/BLACK_VLESS_RUS_base64.txt",
         "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/Vless-Reality-White-Lists-Rus-Mobile-base64.txt",
         "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/WHITE-CIDR-RU-all-base64.txt",
-        "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/WHITE-CIDR-RU-checked-base64.txt",
         "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Base64/PROXIES_ONLY/WHITE-SNI-RU-all-base64.txt",
         "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/BLACK_SS%2BAll_RUS_clash_global.yaml",
         "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/main/Export/Clash/GLOBAL/BLACK_VLESS_RUS_clash_global.yaml",
@@ -969,6 +970,10 @@
         },
         {
           "path": "Export/Base64/PROXIES_ONLY/BLACK_VLESS_RUS_mobile_base64.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "Export/Base64/PROXIES_ONLY/WHITE-CIDR-RU-checked-base64.txt",
           "reason": "content_not_matching"
         },
         {
@@ -1022,111 +1027,190 @@
         {
           "path": "TOR-BRIDGES/TOR_BRIDGES_ALL.txt",
           "reason": "content_not_matching"
-        },
-        {
-          "path": "TOR-BRIDGES/TOR_BRIDGES_OBFS4.txt",
-          "reason": "content_not_matching"
         }
       ]
     },
     {
-      "seed_repo": "LeilaoMi/AutoMergePublicNodes-Optimized",
+      "seed_repo": "sinspired/subs-check-pro",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 64,
-      "accepted_source_count": 11,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_protocol/global_trojan.txt",
-        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_protocol/global_vless.txt",
-        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_protocol/verified_vless.txt",
-        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E4%BF%84%E7%BD%97%E6%96%AF.txt",
-        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E6%B3%A2%E5%85%B0.txt",
-        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E9%98%BF%E8%81%94%E9%85%8B.txt",
-        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E9%9F%A9%E5%9B%BD.txt",
-        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/by_region/%E9%A6%99%E6%B8%AF.txt",
-        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/global.yaml",
-        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/output/verified.yaml",
-        "https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/tests/fixtures/protocols/clash.yaml"
-      ],
+      "candidate_file_count": 22,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
       "sample_rejections": [
+        {
+          "path": ".goreleaser.yaml",
+          "reason": "content_not_matching"
+        },
         {
           "path": "README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "SECURITY.md",
+          "path": "assets/ACL4SSR_Online_Full.yaml",
           "reason": "content_not_matching"
         },
         {
-          "path": "config/filter_rules.yaml",
+          "path": "assets/Mihomo-Rules-CDN.yaml",
           "reason": "content_not_matching"
         },
         {
-          "path": "config/scoring.low_latency.yaml",
+          "path": "assets/Mihomo-Rules-Lite-CDN.yaml",
           "reason": "content_not_matching"
         },
         {
-          "path": "config/scoring.source_quality.yaml",
+          "path": "doc/base.yaml",
           "reason": "content_not_matching"
         },
         {
-          "path": "config/scoring.stability.yaml",
+          "path": "docs-site/docs/Cloudflare-Tunnel.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "config/scoring.yaml",
+          "path": "docs-site/docs/Deployment.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "config/sources.yaml",
+          "path": "docs-site/docs/Features-Details.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/client-guide.md",
+          "path": "docs-site/docs/File-Service.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/releases/2.3.0.md",
+          "path": "docs-site/docs/Home.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/releases/2.4.0.md",
+          "path": "docs-site/docs/Notifications.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/releases/README.md",
+          "path": "docs-site/docs/Speedtest.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/resources.md",
+          "path": "docs-site/docs/Storage.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "output/by_protocol/global_http.txt",
+          "path": "docs-site/docs/Subscriptions.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "output/by_protocol/global_hysteria2.txt",
+          "path": "docs-site/docs/System-Proxy.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "output/by_protocol/global_shadowsocks.txt",
+          "path": "docs-site/docs/android.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "output/by_protocol/verified_anytls.txt",
+          "path": "docs-site/docs/method-gist.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "output/by_protocol/verified_http.txt",
+          "path": "docs-site/docs/method-r2.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "output/by_protocol/verified_hysteria2.txt",
+          "path": "docs-site/docs/method-webdav.md",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "EkkoG/subio",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 40,
+      "accepted_source_count": 4,
+      "accepted_sources": [
+        "https://raw.githubusercontent.com/EkkoG/subio/main/example/provider/meta.yaml",
+        "https://raw.githubusercontent.com/EkkoG/subio/main/example/provider/mihomo.yaml",
+        "https://raw.githubusercontent.com/EkkoG/subio/main/example/provider/stash.yaml",
+        "https://raw.githubusercontent.com/EkkoG/subio/main/example/render/provider/nodes.yaml"
+      ],
+      "sample_rejections": [
+        {
+          "path": "AGENTS.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "output/by_protocol/verified_shadowsocks.txt",
+          "path": "README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/DEV.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/e2e_testing.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/get_rendering.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/recipes.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/subio_node_format.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "docs/support_matrix.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "example/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "example/provider/multiuser.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "example/provider/v2rayn.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "example/render/README.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "example/render/template/client.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "example/template/clash.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "example/template/dae_subscription.txt",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "example/template/mihomo.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "example/template/remote-mihomo.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "example/template/stash.yaml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "tests/README.md",
           "reason": "content_not_matching"
         }
       ]
@@ -1310,103 +1394,121 @@
       ]
     },
     {
-      "seed_repo": "ermaozi01/free_clash_vpn",
+      "seed_repo": "Anfioo/WingHarness",
       "ref": "main",
       "tree_truncated": false,
-      "candidate_file_count": 4,
-      "accepted_source_count": 1,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml"
-      ],
-      "sample_rejections": [
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "requirements.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "subscribe/v2ray.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "nodesfree/v2raynode",
-      "ref": "main",
-      "tree_truncated": false,
-      "candidate_file_count": 11,
-      "accepted_source_count": 1,
-      "accepted_sources": [
-        "https://raw.githubusercontent.com/nodesfree/v2raynode/main/subscribe/clash.yml"
-      ],
-      "sample_rejections": [
-        {
-          "path": "README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "clash.yaml",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/Android手机使用clash.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/ClashVergeRev安装与使用指南.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/Shadowrocket新手使用教程.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/windows下载安装clash.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "jichang/README.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "requirements.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "subscribe/v2ray.txt",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "v2ray.txt",
-          "reason": "content_not_matching"
-        }
-      ]
-    },
-    {
-      "seed_repo": "lureiny/v2raymg",
-      "ref": "master",
-      "tree_truncated": false,
-      "candidate_file_count": 60,
+      "candidate_file_count": 120,
       "accepted_source_count": 0,
       "accepted_sources": [],
       "sample_rejections": [
         {
-          "path": "CLAUDE.md",
+          "path": ".claude/CLAUDE.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "DECISIONS.md",
+          "path": ".claude/skills/git-commit-message/SKILL.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "PROJECT.md",
+          "path": ".claude/skills/porting-decisions/SKILL.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "PROJECT_GUIDE.md",
+          "path": ".claude/skills/porting-decisions/decisions-template.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/porting-decisions/question-bank.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/porting-plan-waves/SKILL.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/porting-plan-waves/lane-template.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/porting-plan-waves/plan-template.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/porting-plan-waves/project-facts.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/porting-plan-waves/prompts-template.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/porting-super-runner/SKILL.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/porting-super-runner/wave-task.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/porting-wave-runner/SKILL.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/porting-wave-runner/coordinator-fallback.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/shadcn/SKILL.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/shadcn/agents/openai.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/shadcn/cli.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/shadcn/customization.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/shadcn/mcp.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": ".claude/skills/shadcn/registry.md",
+          "reason": "content_not_matching"
+        }
+      ]
+    },
+    {
+      "seed_repo": "agentram/ovpn",
+      "ref": "main",
+      "tree_truncated": false,
+      "candidate_file_count": 53,
+      "accepted_source_count": 0,
+      "accepted_sources": [],
+      "sample_rejections": [
+        {
+          "path": ".golangci.yml",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "CODE_OF_CONDUCT.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "DEVELOPMENT.md",
+          "reason": "content_not_matching"
+        },
+        {
+          "path": "README.ansible.md",
           "reason": "content_not_matching"
         },
         {
@@ -1414,63 +1516,59 @@
           "reason": "content_not_matching"
         },
         {
-          "path": "STATUS.md",
+          "path": "SECURITY.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "TASKS.md",
+          "path": "ansible/inventories/example/group_vars/all.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "config/config.example.yaml",
+          "path": "ansible/inventories/example/group_vars/proxy.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "config/ping_nodes.yaml",
+          "path": "ansible/inventories/example/group_vars/xray.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "config/test-endnode.yaml",
+          "path": "ansible/inventories/example/host_vars/proxy-1.example.com.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/PROTO_GENERATION.md",
+          "path": "ansible/inventories/example/host_vars/vpn-1.example.com.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/certmgmt-design.md",
+          "path": "ansible/inventories/example/hosts.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/chain-proxy-design.md",
+          "path": "ansible/inventories/production/README.md",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/cluster-user-api-and-schema.md",
+          "path": "ansible/playbooks/bootstrap.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/cluster-user-code-review.md",
+          "path": "ansible/playbooks/deploy.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/cluster-user-implementation-plan.md",
+          "path": "ansible/playbooks/host-maintenance.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/cluster-user-interface-migration.md",
+          "path": "ansible/playbooks/security.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/cluster-user-migration-sql-draft.md",
+          "path": "ansible/roles/common/tasks/main.yml",
           "reason": "content_not_matching"
         },
         {
-          "path": "docs/cluster-user-proto-draft.md",
-          "reason": "content_not_matching"
-        },
-        {
-          "path": "docs/cluster-user-runtime-sequence.md",
+          "path": "ansible/roles/docker/handlers/main.yml",
           "reason": "content_not_matching"
         }
       ]
